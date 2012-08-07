@@ -1,0 +1,215 @@
+--- !!com.aptana.scripting.model.BundleElement 
+author: Mark Cornick
+children: 
+- !!com.aptana.scripting.model.MenuElement 
+  children: 
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Deploy"
+    displayName: "Deploy"
+    path: bundle.rb
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "-"
+    displayName: "-"
+    path: bundle.rb
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Open Capistrano Documentation"
+    displayName: "Open Capistrano Documentation"
+    path: bundle.rb
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "-"
+    displayName: "-"
+    path: bundle.rb
+  - !!com.aptana.scripting.model.MenuElement 
+    children: 
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Restart App Servers"
+      displayName: "Restart App Servers"
+      path: bundle.rb
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Start App Servers"
+      displayName: "Start App Servers"
+      path: bundle.rb
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Stop App Servers"
+      displayName: "Stop App Servers"
+      path: bundle.rb
+    displayName: "Application Servers"
+    path: bundle.rb
+  - !!com.aptana.scripting.model.MenuElement 
+    children: 
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Deploy With Migrations"
+      displayName: "Deploy With Migrations"
+      path: bundle.rb
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Migrate Database"
+      displayName: "Migrate Database"
+      path: bundle.rb
+    displayName: "Database Servers"
+    path: bundle.rb
+  - !!com.aptana.scripting.model.MenuElement 
+    children: 
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Disable Application"
+      displayName: "Disable Application"
+      path: bundle.rb
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Enable Application"
+      displayName: "Enable Application"
+      path: bundle.rb
+    displayName: "Web Servers"
+    path: bundle.rb
+  - !!com.aptana.scripting.model.MenuElement 
+    children: 
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Display Pending Commits"
+      displayName: "Display Pending Commits"
+      path: bundle.rb
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Display Pending Diffs"
+      displayName: "Display Pending Diffs"
+      path: bundle.rb
+    displayName: "Pending Operations"
+    path: bundle.rb
+  - !!com.aptana.scripting.model.MenuElement 
+    children: 
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Rollback"
+      displayName: "Rollback"
+      path: bundle.rb
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Clean Up Old Releases"
+      displayName: "Clean Up Old Releases"
+      path: bundle.rb
+    displayName: "Maintenance"
+    path: bundle.rb
+  displayName: "Capistrano"
+  path: bundle.rb
+- !command 
+  async: false
+  displayName: "Display Pending Diffs"
+  input: 
+  - none
+  outputType: create_new_document
+  path: commands/display_pending_diffs.rb
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Start App Servers"
+  input: 
+  - none
+  outputType: discard
+  path: commands/start_app_servers.rb
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Migrate Database"
+  input: 
+  - none
+  outputType: discard
+  path: commands/migrate_database.rb
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Deploy With Migrations"
+  input: 
+  - none
+  outputType: discard
+  path: commands/deploy_with_migrations.rb
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Enable Application"
+  input: 
+  - none
+  outputType: discard
+  path: commands/enable_application.rb
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Deploy"
+  input: 
+  - none
+  outputType: discard
+  path: commands/deploy.rb
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Disable Application"
+  input: 
+  - none
+  outputType: discard
+  path: commands/disable_application.rb
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Stop App Servers"
+  input: 
+  - none
+  outputType: discard
+  path: commands/stop_app_servers.rb
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Restart App Servers"
+  input: 
+  - none
+  outputType: discard
+  path: commands/restart_app_servers.rb
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Display Pending Commits"
+  input: 
+  - none
+  outputType: discard
+  path: commands/display_pending_commits.rb
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Open Capistrano Documentation"
+  input: 
+  - none
+  outputType: discard
+  path: commands/open_capistrano_documentation.rb
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Clean Up Old Releases"
+  input: 
+  - none
+  outputType: discard
+  path: commands/clean_up_old_releases.rb
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Rollback"
+  input: 
+  - none
+  outputType: discard
+  path: commands/rollback.rb
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+customProperties: 
+  contact_email_rot_13: znex@ivtrg.pbz
+description: |
+  Ported from TextMate Bundle written by Mark Cornick:
+  
+  Original TextMate bundle Copyright (C) 2008 Mark Cornick of Viget Labs (http://www.viget.com/)
+
+displayName: "Capistrano"
+path: bundle.rb
+repository: git://github.com/aptana/capistrano.ruble.git
+visible: true

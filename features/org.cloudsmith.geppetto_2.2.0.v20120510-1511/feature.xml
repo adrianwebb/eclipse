@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- contextQualifierLength=14 -->
+<feature
+      id="org.cloudsmith.geppetto"
+      label="%featureName"
+      version="2.2.0.v20120510-1511"
+      provider-name="%providerName"
+      image="geppetto_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="http://www.eclipse.org/legal/epl-v10.html">
+      Copyright (c) 2012 Cloudsmith Inc. and other contributors, as listed below.
+All rights reserved. This program and the accompanying materials
+are made available under the terms of the Eclipse Public License v1.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.cloudsmith.geppetto"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.v20120401-0127"
+         unpack="false"/>
+
+   <plugin
+         id="org.cloudsmith.geppetto.common"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.v20120201-1505"
+         unpack="false"/>
+
+   <plugin
+         id="org.cloudsmith.geppetto.common.injectable"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.v20111117-1053"
+         unpack="false"/>
+
+   <plugin
+         id="org.cloudsmith.geppetto.forge"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.v20120426-0954"
+         unpack="false"/>
+
+   <plugin
+         id="org.cloudsmith.geppetto.pp"
+         download-size="0"
+         install-size="0"
+         version="2.1.1.v20120428-0029"
+         unpack="false"/>
+
+   <plugin
+         id="org.cloudsmith.geppetto.pp.dsl"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.v20120502-2246"
+         unpack="false"/>
+
+   <plugin
+         id="org.cloudsmith.geppetto.pp.dsl.ui"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.v20120510-1511"
+         unpack="false"/>
+
+   <plugin
+         id="org.cloudsmith.geppetto.ruby"
+         download-size="0"
+         install-size="0"
+         version="2.1.1.v20120424-2152"
+         unpack="false"/>
+
+   <plugin
+         id="org.cloudsmith.geppetto.ui"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.v20120403-2333"
+         unpack="false"/>
+
+   <plugin
+         id="org.cloudsmith.geppetto.ruby.jrubyparser"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.v20120424-2152"
+         unpack="false"/>
+
+</feature>

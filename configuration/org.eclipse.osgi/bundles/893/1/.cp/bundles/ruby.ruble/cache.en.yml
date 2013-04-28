@@ -1,0 +1,3305 @@
+--- !!com.aptana.scripting.model.BundleElement 
+author: Christopher Williams et al
+children: 
+- !!com.aptana.scripting.model.MenuElement 
+  children: 
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Run"
+    displayName: "Run"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Run Focused Unit Test"
+    displayName: "Run Focused Unit Test"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Run Tests in Current File"
+    displayName: "Run Tests in Current File"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "-"
+    displayName: "-"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Documentation for Word"
+    displayName: "Documentation for Word"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    children: 
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Show for Current File / Project"
+      displayName: "Show for Current File / Project"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "-"
+      displayName: "-"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      children: 
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: "Bold"
+        displayName: "Bold"
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: "Italic"
+        displayName: "Italic"
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: "Typewriter"
+        displayName: "Typewriter"
+        path: (eval)
+      displayName: "Format"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "-"
+      displayName: "-"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Omit"
+      displayName: "Omit"
+      path: (eval)
+    displayName: "RDoc"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "-"
+    displayName: "-"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Open require"
+    displayName: "Open require"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Validate Syntax"
+    displayName: "Validate Syntax"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Validate Syntax (ERB)"
+    displayName: "Validate Syntax (ERB)"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "-"
+    displayName: "-"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Execute Line / Selection as Ruby"
+    displayName: "Execute Line / Selection as Ruby"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Execute and Update '# =>' Markers"
+    displayName: "Execute and Update '# =>' Markers"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Add '# =>' Marker"
+    displayName: "Add '# =>' Marker"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "-"
+    displayName: "-"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Insert Missing requires"
+    displayName: "Insert Missing requires"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Add ! to Method in Line"
+    displayName: "Add ! to Method in Line"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Toggle String / Symbol"
+    displayName: "Toggle String / Symbol"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Insert ERb's <% .. %> or <%= ..  %>"
+    displayName: "Insert ERb's <% .. %> or <%= ..  %>"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "-"
+    displayName: "-"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    children: 
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "New Method"
+      displayName: "New Method"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "-"
+      displayName: "-"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: begin ... rescue ... end
+      displayName: begin ... rescue ... end
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: case ... end
+      displayName: case ... end
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: when ...
+      displayName: when ...
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: def ... end
+      displayName: def ... end
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: if ... end
+      displayName: if ... end
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: if ... else ... end
+      displayName: if ... else ... end
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: elsif ...
+      displayName: elsif ...
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: unless ... end
+      displayName: unless ... end
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: while ... end
+      displayName: while ... end
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: until ... end
+      displayName: until ... end
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "-"
+      displayName: "-"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      children: 
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: class .. end
+        displayName: class .. end
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: class .. initialize .. end
+        displayName: class .. initialize .. end
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: class .. < ParentClass .. initialize .. end
+        displayName: class .. < ParentClass .. initialize .. end
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: ClassName = Struct .. do .. end
+        displayName: ClassName = Struct .. do .. end
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: class BlankSlate .. initialize .. end
+        displayName: class BlankSlate .. initialize .. end
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: class .. < DelegateClass .. initialize .. end
+        displayName: class .. < DelegateClass .. initialize .. end
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: class << self .. end
+        displayName: class << self .. end
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: "-"
+        displayName: "-"
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: module .. end
+        displayName: module .. end
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: module .. module_function .. end
+        displayName: module .. module_function .. end
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: module .. ClassMethods .. end
+        displayName: module .. ClassMethods .. end
+        path: (eval)
+      displayName: "Classes and Modules"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      children: 
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: attr_reader ..
+        displayName: attr_reader ..
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: attr_writer ..
+        displayName: attr_writer ..
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: attr_accessor ..
+        displayName: attr_accessor ..
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: "-"
+        displayName: "-"
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: include Enumerable ..
+        displayName: include Enumerable ..
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: include Comparable ..
+        displayName: include Comparable ..
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: "-"
+        displayName: "-"
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: Extend Forwardable (Forw)
+        displayName: Extend Forwardable (Forw)
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: "-"
+        displayName: "-"
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: def self .. end
+        displayName: def self .. end
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: def method_missing .. end
+        displayName: def method_missing .. end
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: def_delegator ..
+        displayName: def_delegator ..
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: def_delegators ..
+        displayName: def_delegators ..
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: "-"
+        displayName: "-"
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: alias_method ..
+        displayName: alias_method ..
+        path: (eval)
+      displayName: "Methods"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: __END__
+      displayName: __END__
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "-"
+      displayName: "-"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "#!/usr/bin/env ruby -wKU"
+      displayName: "#!/usr/bin/env ruby -wKU"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: require ".."
+      displayName: require ".."
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: require_gem ".."
+      displayName: require_gem ".."
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: application { .. }
+      displayName: application { .. }
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: usage_if()
+      displayName: usage_if()
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: usage_unless()
+      displayName: usage_unless()
+      path: (eval)
+    displayName: "Declarations"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    children: 
+    - !!com.aptana.scripting.model.MenuElement 
+      children: 
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: Array.new(10) { |i| .. }
+        displayName: Array.new(10) { |i| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: "-"
+        displayName: "-"
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: delete_if { |e| .. }
+        displayName: delete_if { |e| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: fill(range) { |i| .. }
+        displayName: fill(range) { |i| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: flatten_once()
+        displayName: flatten_once()
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: zip(enums) { |row| .. }
+        displayName: zip(enums) { |row| .. }
+        path: (eval)
+      displayName: "Arrays"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      children: 
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: downto(0) { |n| .. }
+        displayName: downto(0) { |n| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: step(2) { |e| .. }
+        displayName: step(2) { |e| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: times { |n| .. }
+        displayName: times { |n| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: upto(1.0/0.0) { |n| .. }
+        displayName: upto(1.0/0.0) { |n| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: "-"
+        displayName: "-"
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: loop { .. }
+        displayName: loop { .. }
+        path: (eval)
+      displayName: "Counting"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      children: 
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: each { |e| .. }
+        displayName: each { |e| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: each_byte { |byte| .. }
+        displayName: each_byte { |byte| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: each_char { |chr| .. }
+        displayName: each_char { |chr| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: each_cons(..) { |group| .. }
+        displayName: each_cons(..) { |group| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: each_index { |i| .. }
+        displayName: each_index { |i| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: each_key { |key| .. }
+        displayName: each_key { |key| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: each_line { |line| .. }
+        displayName: each_line { |line| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: each_pair { |name, val| .. }
+        displayName: each_pair { |name, val| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: each_slice(..) { |group| .. }
+        displayName: each_slice(..) { |group| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: each_value { |val| .. }
+        displayName: each_value { |val| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: each_with_index { |e, i| .. }
+        displayName: each_with_index { |e, i| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: reverse_each { |e| .. }
+        displayName: reverse_each { |e| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: "-"
+        displayName: "-"
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: inject(init) { |mem, var| .. }
+        displayName: inject(init) { |mem, var| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: "-"
+        displayName: "-"
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: map { |e| .. }
+        displayName: map { |e| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: map_with_index { |e, i| .. }
+        displayName: map_with_index { |e, i| .. }
+        path: (eval)
+      displayName: "Each Element"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      children: 
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: sort { |a, b| .. }
+        displayName: sort { |a, b| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: sort_by { |e| .. }
+        displayName: sort_by { |e| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: "-"
+        displayName: "-"
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: randomize()
+        displayName: randomize()
+        path: (eval)
+      displayName: "Ordering"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      children: 
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: all? { |e| .. }
+        displayName: all? { |e| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: any? { |e| .. }
+        displayName: any? { |e| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: classify { |e| .. }
+        displayName: classify { |e| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: collect { |e| .. }
+        displayName: collect { |e| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: detect { |e| .. }
+        displayName: detect { |e| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: fetch(name) { |key| .. }
+        displayName: fetch(name) { |key| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: find { |e| .. }
+        displayName: find { |e| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: find_all { |e| .. }
+        displayName: find_all { |e| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: grep(/pattern/) { |match| .. }
+        displayName: grep(/pattern/) { |match| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: max { |a, b| .. }
+        displayName: max { |a, b| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: min { |a, b| .. }
+        displayName: min { |a, b| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: partition { |e| .. }
+        displayName: partition { |e| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: reject { |e| .. }
+        displayName: reject { |e| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: select { |e| .. }
+        displayName: select { |e| .. }
+        path: (eval)
+      displayName: "Searching and Selection"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      children: 
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: sub(/../) { |match| .. }
+        displayName: sub(/../) { |match| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: gsub(/../) { |match| .. }
+        displayName: gsub(/../) { |match| .. }
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: "-"
+        displayName: "-"
+        path: (eval)
+      - !!com.aptana.scripting.model.MenuElement 
+        commandName: scan(/../) { |match| .. }
+        displayName: scan(/../) { |match| .. }
+        path: (eval)
+      displayName: "Strings"
+      path: (eval)
+    displayName: "Iterators"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    children: 
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Toggle 'do ... end' / '{ ... }'"
+      displayName: "Toggle 'do ... end' / '{ ... }'"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "-"
+      displayName: "-"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Insert { |variable| ... }"
+      displayName: "Insert { |variable| ... }"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Insert do |variable| ... end"
+      displayName: "Insert do |variable| ... end"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "-"
+      displayName: "-"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: lambda { |args| .. }
+      displayName: lambda { |args| .. }
+      path: (eval)
+    displayName: "Blocks"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    children: 
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: Hash.new { |hash, key| hash[key] = .. }
+      displayName: Hash.new { |hash, key| hash[key] = .. }
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "-"
+      displayName: "-"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: Hash Pair - :key => "value"
+      displayName: Hash Pair - :key => "value"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: Hash Pointer - =>
+      displayName: Hash Pointer - =>
+      path: (eval)
+    displayName: "Hashes"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    children: 
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: open("path_or_url", "w") { |io| .. }
+      displayName: open("path_or_url", "w") { |io| .. }
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "-"
+      displayName: "-"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: File.foreach ("..") { |line| .. }
+      displayName: File.foreach ("..") { |line| .. }
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: File.read("..")
+      displayName: File.read("..")
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: File.open("..") { |file| .. }
+      displayName: File.open("..") { |file| .. }
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "-"
+      displayName: "-"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: Dir.glob("..") { |file| .. }
+      displayName: Dir.glob("..") { |file| .. }
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: Dir[".."]
+      displayName: Dir[".."]
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: directory()
+      displayName: directory()
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: path_from_here( .. )
+      displayName: path_from_here( .. )
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "-"
+      displayName: "-"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: unix_filter { .. }
+      displayName: unix_filter { .. }
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: option_parse { .. }
+      displayName: option_parse { .. }
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: option(..)
+      displayName: option(..)
+      path: (eval)
+    displayName: "Files"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    children: 
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: class .. < Test::Unit::TestCase .. end
+      displayName: class .. < Test::Unit::TestCase .. end
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: def test_ .. end
+      displayName: def test_ .. end
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: require "tc_.." ..
+      displayName: require "tc_.." ..
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "-"
+      displayName: "-"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: assert(..)
+      displayName: assert(..)
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: assert_equal(..)
+      displayName: assert_equal(..)
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: assert_not_equal(..)
+      displayName: assert_not_equal(..)
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: assert_in_delta(..)
+      displayName: assert_in_delta(..)
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: assert_instance_of(..)
+      displayName: assert_instance_of(..)
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: assert_kind_of(..)
+      displayName: assert_kind_of(..)
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: assert_nil(..)
+      displayName: assert_nil(..)
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: assert_not_nil(..)
+      displayName: assert_not_nil(..)
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: assert_match(..)
+      displayName: assert_match(..)
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: assert_no_match(..)
+      displayName: assert_no_match(..)
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: assert_operator(..)
+      displayName: assert_operator(..)
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: assert_raise(..) { .. }
+      displayName: assert_raise(..) { .. }
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: assert_nothing_raised(..) { .. }
+      displayName: assert_nothing_raised(..) { .. }
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: assert_respond_to(..)
+      displayName: assert_respond_to(..)
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: assert_same(..)
+      displayName: assert_same(..)
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: assert_not_same(..)
+      displayName: assert_not_same(..)
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: assert_send(..)
+      displayName: assert_send(..)
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: assert_throws(..) { .. }
+      displayName: assert_throws(..) { .. }
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: assert_nothing_thrown { .. }
+      displayName: assert_nothing_thrown { .. }
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: flunk(..)
+      displayName: flunk(..)
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "-"
+      displayName: "-"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: Benchmark.bmbm do .. end
+      displayName: Benchmark.bmbm do .. end
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: results.report(..) { .. }
+      displayName: results.report(..) { .. }
+      path: (eval)
+    displayName: "Tests"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    children: 
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: Marshal.dump(.., file)
+      displayName: Marshal.dump(.., file)
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: Marshal.load(obj)
+      displayName: Marshal.load(obj)
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "-"
+      displayName: "-"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: PStore.new( .. )
+      displayName: PStore.new( .. )
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: transaction( .. ) { .. }
+      displayName: transaction( .. ) { .. }
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "-"
+      displayName: "-"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: YAML.dump(.., file)
+      displayName: YAML.dump(.., file)
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: YAML.load(file)
+      displayName: YAML.load(file)
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "-"
+      displayName: "-"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: xmlread(..)
+      displayName: xmlread(..)
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: xpath(..) { .. }
+      displayName: xpath(..) { .. }
+      path: (eval)
+    displayName: "Serialization"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    children: 
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: class_from_name()
+      displayName: class_from_name()
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: deep_copy(..)
+      displayName: deep_copy(..)
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: singleton_class()
+      displayName: singleton_class()
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: word_wrap()
+      displayName: word_wrap()
+      path: (eval)
+    displayName: "Idioms"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    children: 
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Run Rake Task"
+      displayName: "Run Rake Task"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "-"
+      displayName: "-"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: namespace :.. do .. end
+      displayName: namespace :.. do .. end
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: task :task_name => [:dependent, :tasks] do .. end
+      displayName: task :task_name => [:dependent, :tasks] do .. end
+      path: (eval)
+    displayName: "Rake"
+    path: (eval)
+  displayName: "Ruby"
+  path: (eval)
+  scope: source.ruby, project.rails
+- !!com.aptana.scripting.model.SmartTypingPairsElement 
+  displayName: smart_typing_pairs-
+  pairs: 
+  - "\""
+  - "\""
+  - "|"
+  - "|"
+  - (
+  - )
+  - "{"
+  - "}"
+  - "["
+  - "]"
+  - "'"
+  - "'"
+  - "`"
+  - "`"
+  path: (eval)
+  scope: source.ruby
+- !command 
+  async: false
+  displayName: Hash Pointer - =>
+  input: 
+  - none
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform MAC
+    : 
+      - Control+L
+
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - Alt+L
+
+  outputType: insert_as_text
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "New Method"
+  input: 
+  - selection
+  - word
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - Shift+Return
+
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Show for Current File / Project"
+  input: 
+  - none
+  outputType: show_as_html
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Run Focused Unit Test"
+  input: 
+  - none
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - M1+M2+R
+
+  outputType: discard
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Documentation for Word"
+  input: 
+  - selection
+  - word
+  outputType: show_as_tooltip
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby, source.ruby.rails
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - Forw
+  displayName: Extend Forwardable (Forw)
+  input: 
+  - document
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - eac
+  displayName: each_char { |chr| .. }
+  input: 
+  - document
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - worw
+  displayName: word_wrap()
+  input: 
+  - none
+  outputType: insert_as_text
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Insert Missing requires"
+  input: 
+  - selection
+  - document
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - M1+M2+3
+
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - xml
+  displayName: xmlread(..)
+  input: 
+  - document
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Execute and Update '# =>' Markers"
+  input: 
+  - selection
+  - document
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - COMMAND+CONTROL+SHIFT+E
+
+  outputType: replace_selection
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Run Tests in Current File"
+  input: 
+  - none
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - M1+M2+T
+
+  outputType: discard
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - Yd
+  displayName: YAML.dump(.., file)
+  input: 
+  - document
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Validate Syntax (ERB)"
+  input: 
+  - document
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - Control+Shift+V
+
+  outputType: show_as_tooltip
+  path: (eval)
+  runType: current_thread
+  scope: text.html.ruby, text.html source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Insert ERb's <% .. %> or <%= ..  %>"
+  input: 
+  - selection
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - CONTROL+SHIFT+.
+
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: text.html.ruby - source, text.xml.ruby - source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - eas
+  displayName: each_slice(..) { |group| .. }
+  input: 
+  - document
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - Yl
+  displayName: YAML.load(file)
+  input: 
+  - document
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Execute Line / Selection as Ruby"
+  input: 
+  - selection
+  - line
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - Shift+Control+E
+
+  outputType: insert_as_text
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - bm
+  displayName: Benchmark.bmbm do .. end
+  input: 
+  - document
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Toggle String / Symbol"
+  input: 
+  - selection
+  - scope
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - CTRL+M2+;
+
+  outputType: replace_selection
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby string.quoted, source.ruby constant.other.symbol.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Typewriter"
+  input: 
+  - selection
+  - word
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - M1+SHIFT+K
+
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby comment
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: Validate
+  input: 
+  - document
+  outputType: show_as_tooltip
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - mapwi
+  displayName: map_with_index { |e, i| .. }
+  input: 
+  - document
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Italic"
+  input: 
+  - selection
+  - word
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - M1+SHIFT+I
+
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby comment
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Bold"
+  input: 
+  - selection
+  - word
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - M1+SHIFT+B
+
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby comment
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Open require"
+  input: 
+  - selection
+  - document
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - Shift+M1+D
+
+  outputType: show_as_tooltip
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: Toggle Quote Style
+  input: 
+  - selection
+  - scope
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - Control+M2+'
+
+  outputType: replace_selection
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Validate Syntax"
+  input: 
+  - document
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - Control+Shift+V
+
+  outputType: show_as_tooltip
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: Toggle ERb Tags
+  input: 
+  - selection
+  - scope
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - CTRL+M2+.
+
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby.embedded, source.ruby.rails.embedded, comment.block.erb, meta.erb
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - reqg
+  displayName: require_gem ".."
+  input: 
+  - document
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Omit"
+  input: 
+  - selection
+  - line
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - Command+Shift+Control+O
+
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Run Rake Task"
+  input: 
+  - none
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - CONTROL+M2+R
+
+  outputType: discard
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Toggle 'do ... end' / '{ ... }'"
+  input: 
+  - selection
+  - document
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - CONTROL+M2+[
+
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - Pn
+  displayName: PStore.new( .. )
+  input: 
+  - document
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Run"
+  input: 
+  - none
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - M1+R
+
+  outputType: discard
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Add ! to Method in Line"
+  input: 
+  - selection
+  - line
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - CTRL+M2+1
+
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - eac
+  displayName: each_cons(..) { |group| .. }
+  input: 
+  - document
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - cla
+  displayName: class .. < DelegateClass .. initialize .. end
+  input: 
+  - document
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: Go to Definition
+  input: 
+  - document
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - F3
+
+  outputType: discard
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - cla
+  displayName: class .. < ParentClass .. initialize .. end
+  input: 
+  - none
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - cla
+  displayName: ClassName = Struct .. do .. end
+  input: 
+  - none
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - cla
+  displayName: class .. end
+  input: 
+  - none
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - cla
+  displayName: class .. initialize .. end
+  input: 
+  - none
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - mod
+  displayName: module .. ClassMethods .. end
+  input: 
+  - none
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - mod
+  displayName: module .. end
+  input: 
+  - none
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - mod
+  displayName: module .. module_function .. end
+  input: 
+  - none
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - nam
+  displayName: namespace :.. do .. end
+  input: 
+  - none
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - begin
+  displayName: begin ... rescue ... end
+  input: 
+  - selection
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - as
+  displayName: assert(..)
+  input: 
+  - none
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - ase
+  displayName: assert_equal(..)
+  input: 
+  - none
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - asid
+  displayName: assert_in_delta(..)
+  input: 
+  - none
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - asio
+  displayName: assert_instance_of(..)
+  input: 
+  - none
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - asko
+  displayName: assert_kind_of(..)
+  input: 
+  - none
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - asm
+  displayName: assert_match(..)
+  input: 
+  - none
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - asn
+  displayName: assert_nil(..)
+  input: 
+  - none
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - asnm
+  displayName: assert_no_match(..)
+  input: 
+  - none
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - asne
+  displayName: assert_not_equal(..)
+  input: 
+  - none
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - asnn
+  displayName: assert_not_nil(..)
+  input: 
+  - none
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - asns
+  displayName: assert_not_same(..)
+  input: 
+  - none
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - asrt
+  displayName: assert_respond_to(..)
+  input: 
+  - none
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - ass
+  displayName: assert_same(..)
+  input: 
+  - none
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - ass
+  displayName: assert_send(..)
+  input: 
+  - none
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - aso
+  displayName: assert_operator(..)
+  input: 
+  - none
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - fl
+  displayName: flunk(..)
+  input: 
+  - none
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - =b
+  displayName: New Block
+  input: 
+  - none
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - rb
+  displayName: "#!/usr/bin/env ruby -wKU"
+  expansion: |
+    #!/usr/bin/env ruby -wKU
+
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - y
+  displayName: ":yields:"
+  expansion: " :yields: ${1:arguments}"
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - ife
+  displayName: if ... else ... end
+  expansion: |-
+    if ${1:condition}
+    	$2
+    else
+    	$3
+    end
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - if
+  displayName: if ... end
+  expansion: |-
+    if ${1:condition}
+      $0
+    end
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - case
+  displayName: case ... end
+  expansion: |-
+    case ${1:object}
+    when ${2:condition}
+    	$0
+    end
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - end
+  displayName: __END__
+  expansion: |
+    __END__
+
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - "#"
+  displayName: "Add '# =>' Marker"
+  expansion: "# => "
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - am
+  displayName: alias_method ..
+  expansion: alias_method :${1:new_name}, :${2:old_name}
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - all
+  displayName: all? { |e| .. }
+  expansion: all? { |${1:e}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - any
+  displayName: any? { |e| .. }
+  expansion: any? { |${1:e}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - app
+  displayName: application { .. }
+  expansion: |-
+    if __FILE__ == \$PROGRAM_NAME
+      $0
+    end
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - Array
+  displayName: Array.new(10) { |i| .. }
+  expansion: Array.new(${1:10}) { |${2:i}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - asnr
+  displayName: assert_nothing_raised(..) { .. }
+  expansion: assert_nothing_raised(${1:Exception}) { $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - asnt
+  displayName: assert_nothing_thrown { .. }
+  expansion: assert_nothing_thrown { $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - asr
+  displayName: assert_raise(..) { .. }
+  expansion: assert_raise(${1:Exception}) { $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - ast
+  displayName: assert_throws(..) { .. }
+  expansion: assert_throws(:${1:expected}) { $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - rw
+  displayName: attr_accessor ..
+  expansion: attr_accessor :${1:attr_names}
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - r
+  displayName: attr_reader ..
+  expansion: attr_reader :${1:attr_names}
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - w
+  displayName: attr_writer ..
+  expansion: attr_writer :${1:attr_names}
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - tc
+  displayName: class .. < Test::Unit::TestCase .. end
+  expansion: |-
+    require "test/unit"
+          
+    require "${1:library_file_name}"
+    
+    class Test${2:ClassName} < Test::Unit::TestCase
+      def test_${3:case_name}
+        $0
+    	end
+    end
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - cla
+  displayName: class BlankSlate .. initialize .. end
+  expansion: |-
+    class ${1:BlankSlate}
+      instance_methods.each { |meth| undef_method(meth) unless meth =~ /\A__/ }
+      	
+      def initialize(${2:args})
+        @${3:delegate} = ${4:delegate_object}
+    
+        $0
+      end
+    
+      def method_missing(meth, *args, &block)
+        @${3:delegate}.send(meth, *args, &block)
+      end
+      	  	
+    end
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - cla
+  displayName: class << self .. end
+  expansion: |-
+    class << ${1:self}
+      $0
+    end
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - clafn
+  displayName: class_from_name()
+  expansion: split("::").inject(Object) { |par, const| par.const_get(const) }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - cl
+  displayName: classify { |e| .. }
+  expansion: classify { |${1:e}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - col
+  displayName: collect { |e| .. }
+  expansion: collect { |${1:e}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - deec
+  displayName: deep_copy(..)
+  expansion: Marshal.load(Marshal.dump(${1:obj_to_copy}))
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - def
+  displayName: def ... end
+  expansion: |-
+    def ${1:method_name}
+      $0
+    end
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - defmm
+  displayName: def method_missing .. end
+  expansion: |-
+    def method_missing(meth, *args, &blk)
+      $0
+    end
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - defs
+  displayName: def self .. end
+  expansion: |-
+    def self.${1:class_method_name}
+      $0
+    end
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - deft
+  displayName: def test_ .. end
+  expansion: |-
+    def test_${1:case_name}
+      $0
+    end
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - defd
+  displayName: def_delegator ..
+  expansion: def_delegator :${1:@del_obj}, :${2:del_meth}, :${3:new_name}
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - defds
+  displayName: def_delegators ..
+  expansion: def_delegators :${1:@del_obj}, :${2:del_methods}
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - deli
+  displayName: delete_if { |e| .. }
+  expansion: delete_if { |${1:e}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - det
+  displayName: detect { |e| .. }
+  expansion: detect { |${1:e}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - Dir
+  displayName: Dir.glob("..") { |file| .. }
+  expansion: Dir.glob("${1:*}") { |${2:file}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - Dir
+  displayName: Dir[".."]
+  expansion: Dir["${1:*.rb}"]
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - dir
+  displayName: directory()
+  expansion: File.dirname(__FILE__)
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - do
+  displayName: "Insert do |variable| ... end"
+  expansion: |-
+    do |${1:variable}|
+      $0
+    end
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - dow
+  displayName: downto(0) { |n| .. }
+  expansion: downto(${1:0}) { |${2:n}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - ea
+  displayName: each { |e| .. }
+  expansion: each { |${1:e}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - eab
+  displayName: each_byte { |byte| .. }
+  expansion: each_byte { |${1:byte}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - eai
+  displayName: each_index { |i| .. }
+  expansion: each_index { |${1:i}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - eak
+  displayName: each_key { |key| .. }
+  expansion: each_key { |${1:key}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - eal
+  displayName: each_line { |line| .. }
+  expansion: each_line$1 { |${2:line}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - eap
+  displayName: each_pair { |name, val| .. }
+  expansion: each_pair { |${1:name}, ${2:val}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - eas-
+  displayName: each_slice(..) { |group| .. }
+  expansion: each_slice(${1:2}) { |${2:group}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - eav
+  displayName: each_value { |val| .. }
+  expansion: each_value { |${1:val}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - eawi
+  displayName: each_with_index { |e, i| .. }
+  expansion: each_with_index { |${1:e}, ${2:i}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - elsif
+  displayName: elsif ...
+  expansion: |-
+    elsif ${1:condition}
+      $0
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - fet
+  displayName: fetch(name) { |key| .. }
+  expansion: fetch(${1:name}) { |${2:key}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - File
+  displayName: File.foreach ("..") { |line| .. }
+  expansion: File.foreach("${1:path_to_file}") { |${3:line}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - File
+  displayName: File.open("..") { |file| .. }
+  expansion: File.open("${1:path_to_file}", "${2:r/r+/w/w+/a/a+/b}") { |${3:file}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - File
+  displayName: File.read("..")
+  expansion: File.read("${1:path_to_file}")
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - fil
+  displayName: fill(range) { |i| .. }
+  expansion: fill(${1:range}) { |${2:i}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - fin
+  displayName: find { |e| .. }
+  expansion: find { |${1:e}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - fina
+  displayName: find_all { |e| .. }
+  expansion: find_all { |${1:e}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - flao
+  displayName: flatten_once()
+  expansion: inject(Array.new) { |${1:arr}, ${2:a}| ${1:arr}.push(*${2:a}) }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - gre
+  displayName: grep(/pattern/) { |match| .. }
+  expansion: grep(/${1:pattern}/) { |${2:match}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - gsu
+  displayName: gsub(/../) { |match| .. }
+  expansion: gsub(/${1:pattern}/) { |${2:match}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - ":"
+  displayName: Hash Pair - :key => "value"
+  expansion: ":${1:key} => ${2:\"value\"}${3:, }"
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - Hash
+  displayName: Hash.new { |hash, key| hash[key] = .. }
+  expansion: Hash.new { |${1:hash}, ${2:key}| ${1:hash}[${2:key}] = $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - Comp
+  displayName: include Comparable ..
+  expansion: |-
+    include Comparable
+    
+    def <=>(other)
+      $0
+    end
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - Enum
+  displayName: include Enumerable ..
+  expansion: |-
+    include Enumerable
+    
+    def each(&block)
+      $0
+    end
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - inj
+  displayName: inject(init) { |mem, var| .. }
+  expansion: inject(${1:init}) { |${2:mem}, ${3:var}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - lam
+  displayName: lambda { |args| .. }
+  expansion: lambda { |${1:args}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - loo
+  displayName: loop { .. }
+  expansion: loop { $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - map
+  displayName: map { |e| .. }
+  expansion: map { |${1:e}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - Md
+  displayName: Marshal.dump(.., file)
+  expansion: File.open("${1:path_to_file}.dump", "wb") { |${2:file}| Marshal.dump(${3:obj}, ${2:file}) }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - Ml
+  displayName: Marshal.load(obj)
+  expansion: File.open("${1:path_to_file}.dump", "rb") { |${2:file}| Marshal.load(${2:file}) }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - max
+  displayName: max { |a, b| .. }
+  expansion: max { |a, b| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - min
+  displayName: min { |a, b| .. }
+  expansion: min { |a, b| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - "{"
+  displayName: "Insert { |variable| ... }"
+  expansion: "{ |${1:variable}| ${0} }"
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - ope
+  displayName: open("path_or_url", "w") { |io| .. }
+  expansion: open("${1:path_or_url_or_pipe}", "${2:r/r+/w/w+/a/a+/b}") { |${3:io}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - optp
+  displayName: option_parse { .. }
+  expansion: |
+    require "optparse"
+    
+    options = {${1::default => "args"}}
+    
+    ARGV.options do |opts|
+      opts.banner = "Usage:  #{File.basename(\$PROGRAM_NAME)} [OPTIONS] ${2:OTHER_ARGS}"
+    	
+      opts.separator ""
+      opts.separator "Specific Options:"
+    	
+      $0
+    	
+      opts.separator "Common Options:"
+    	
+      opts.on( "-h", "--help",
+      	 "Show this message." ) do
+        puts opts
+        exit
+      end
+    	
+      begin
+        opts.parse!
+      rescue
+        puts opts
+        exit
+      end
+    end
+
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - par
+  displayName: partition { |e| .. }
+  expansion: partition { |${1:e}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - patfh
+  displayName: path_from_here( .. )
+  expansion: File.join(File.dirname(__FILE__), *%w[${1:rel path here}])
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - ran
+  displayName: randomize()
+  expansion: sort_by { rand }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - rej
+  displayName: reject { |e| .. }
+  expansion: reject { |${1:e}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - req
+  displayName: require ".."
+  expansion: require "$0"
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - ts
+  displayName: require "tc_.." ..
+  expansion: |
+    require "test/unit"
+    
+    require "tc_${1:test_case_file}"
+    require "tc_${2:test_case_file}"
+
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - rep
+  displayName: results.report(..) { .. }
+  expansion: results.report("${1:name}:") { TESTS.times { $0 } }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - reve
+  displayName: reverse_each { |e| .. }
+  expansion: reverse_each { |${1:e}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - sca
+  displayName: scan(/../) { |match| .. }
+  expansion: scan(/${1:pattern}/) { |${2:match}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - sel
+  displayName: select { |e| .. }
+  expansion: select { |${1:e}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - sinc
+  displayName: singleton_class()
+  expansion: class << self; self end
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - sor
+  displayName: sort { |a, b| .. }
+  expansion: sort { |a, b| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - sorb
+  displayName: sort_by { |e| .. }
+  expansion: sort_by { |${1:e}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - ste
+  displayName: step(2) { |e| .. }
+  expansion: step(${1:2}) { |${2:n}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - sub
+  displayName: sub(/../) { |match| .. }
+  expansion: sub(/${1:pattern}/) { |${2:match}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - tas
+  displayName: task :task_name => [:dependent, :tasks] do .. end
+  expansion: |-
+    desc "${1:Task description}"
+    task :${2:task_name} => ${3:[:dependent, :tasks]} do
+      $0
+    end
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - tim
+  displayName: times { |n| .. }
+  expansion: times { |${1:n}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - tra
+  displayName: transaction( .. ) { .. }
+  expansion: transaction(${1:true}) { $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - unif
+  displayName: unix_filter { .. }
+  expansion: |-
+    ARGF.each_line$1 do |${2:line}|
+      $0
+    end
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - unless
+  displayName: unless ... end
+  expansion: |-
+    unless ${1:condition}
+      $0
+    end
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - until
+  displayName: until ... end
+  expansion: |-
+    until ${1:condition}
+      $0
+    end
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - opt
+  displayName: option(..)
+  expansion: |-
+    opts.on( "-${1:o}", "--${2:long-option-name}", ${3:String},
+         "${4:Option description.}" ) do |${6:opt}|
+      $0
+    end
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - upt
+  displayName: upto(1.0/0.0) { |n| .. }
+  expansion: upto(${1:1.0/0.0}) { |${2:n}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - usai
+  displayName: usage_if()
+  expansion: |-
+    if ARGV.$1
+      abort "Usage:  #{\$PROGRAM_NAME} ${2:ARGS_GO_HERE}"
+    end
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - usau
+  displayName: usage_unless()
+  expansion: |-
+    unless ARGV.$1
+      abort "Usage:  #{\$PROGRAM_NAME} ${2:ARGS_GO_HERE}"
+    end
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - when
+  displayName: when ...
+  expansion: |-
+    when ${1:condition}
+      $0
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - while
+  displayName: while ... end
+  expansion: |-
+    while ${1:condition}
+      $0
+    end
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - xpa
+  displayName: xpath(..) { .. }
+  expansion: |-
+    elements.each("${1:XPath}") do |${2:node}|
+      $0
+    end
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - zip
+  displayName: zip(enums) { |row| .. }
+  expansion: zip(${1:enums}) { |${2:row}| $0 }
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby
+  workingDirectoryType: UNDEFINED
+- !environment 
+  displayName: environment-
+  path: (eval)
+  scope: source.ruby
+copyright: |
+  (C) Copyright 2010 Aptana Inc. Distributed under the MIT license.
+  
+  Portions (C) Copyright 2006 James Edward Gray II, distributed under the terms of the MIT License.
+
+decreaseIndentMarkers: 
+  source.ruby: !regexp /^\s*([}\]]\s*$|(end|rescue|ensure|else|elsif|when)\b)/
+description: |
+  Support for the Ruby programming language (http://www.ruby-lang.org),
+  converted from TextMate to Ruble by Aptana.
+  
+  Special thanks to our contributors:
+  
+    Kenny Ortmann (http://github.com/yairgo)
+
+displayName: "Ruby"
+increaseIndentMarkers: 
+  source.ruby: !regexp |-
+    /(?x)^
+          (\s*
+              (module|class|def
+              |unless|if|else|elsif
+              |case|when
+              |begin|rescue|ensure
+              |for|while|until
+              |(?= .*? \b(do|begin|case|if|unless)\b )
+               # the look-ahead above is to quickly discard non-candidates
+               (  "(\.|[^\"])*+"        # eat a double quoted string
+               | '(\.|[^\'])*+'      # eat a single quoted string
+               |   [^#"']                # eat all but comments and strings
+               )*
+               (                         \s   (do|begin|case)
+               | [-+=&|*\/~%^<>~](?<!\$.) \s*+ (if|unless)
+               )
+              )\b
+              (?! [^;]*+ ; .*? \bend\b )
+          |(  "(\.|[^\"])*+"            # eat a double quoted string
+           | '(\.|[^\'])*+'          # eat a single quoted string
+           |   [^#"']                    # eat all but comments and strings
+           )*
+           ( \{ (?!  [^}]*+ \} )
+           | \[ (?! [^\]]*+ \] )
+           )
+          ).*$/
+path: (eval)
+repository: git://github.com/aptana/ruby.ruble.git
+visible: true

@@ -1,0 +1,118 @@
+--- !!com.aptana.scripting.model.BundleElement 
+author: Benjamin Jackson
+children: 
+- !!com.aptana.scripting.model.MenuElement 
+  children: 
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "key: value"
+    displayName: "key: value"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Add list item"
+    displayName: "Add list item"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "-"
+    displayName: "-"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Sort Keys Alphabetically"
+    displayName: "Sort Keys Alphabetically"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Convert Document / Selection to Ruby"
+    displayName: "Convert Document / Selection to Ruby"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "-"
+    displayName: "-"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Syntax Cheat Sheet"
+    displayName: "Syntax Cheat Sheet"
+    path: (eval)
+  displayName: "YAML"
+  path: (eval)
+- !command 
+  async: false
+  displayName: "Add list item"
+  input: 
+  - selection
+  - line
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - NUMPAD_ENTER
+
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  scope: source.yaml
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Convert Document / Selection to Ruby"
+  input: 
+  - selection
+  - document
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - CONTROL+M2+H
+
+  outputType: create_new_document
+  path: (eval)
+  runType: current_thread
+  scope: source.yaml
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Syntax Cheat Sheet"
+  input: 
+  - none
+  outputType: show_as_html
+  path: (eval)
+  runType: current_thread
+  scope: source.yaml
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Sort Keys Alphabetically"
+  input: 
+  - selection
+  outputType: replace_selection
+  path: (eval)
+  runType: current_thread
+  scope: source.yaml
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  displayName: "key: value"
+  expansion: "${1:key}: ${2:value}$0"
+  input: 
+  - none
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - CONTROL+M2+;
+
+  path: (eval)
+  runType: current_thread
+  scope: source.yaml - string
+  workingDirectoryType: UNDEFINED
+- !environment 
+  displayName: environment-
+  path: (eval)
+  scope: source.yaml
+customProperties: 
+  contact_email_rot_13: ora@vapbzhzqrfvta.pbz
+decreaseIndentMarkers: 
+  source.yaml: !regexp /^\s+\}$/
+description: |
+  <a href="http://www.yaml.org/">YAML</a> is a straightforward machine parsable data serialization format designed for human readability and interaction with scripting languages such as Perl and Python.
+
+displayName: "YAML"
+increaseIndentMarkers: 
+  source.yaml: !regexp /^\s*.*(:|-) ?(&\w+)?(\{[^}"']*|\([^)"']*)?$/
+path: (eval)
+visible: true

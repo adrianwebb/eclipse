@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="de.walware.ecommons.ltk"
+      label="Commons - LTK Extensions"
+      version="2.0.0.b201207190900E37sw"
+      provider-name="WalWare.de"
+      license-feature="de.walware.opensource.license"
+      license-feature-version="1.0.0">
+
+   <description url="http://www.walware.de/goto/opensource">
+      LKT Framework Extensions for projects based on the Eclipse IDE
+   </description>
+
+   <copyright>
+      Copyright (c) Stephan Wahlbrink and others 2003-2011. All rights reserved.
+   </copyright>
+
+   <license>
+      %license_text
+   </license>
+
+   <requires>
+      <import feature="de.walware.ecommons.e" version="1.0.0" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="de.walware.ecommons.ltk"
+         download-size="2"
+         install-size="3"
+         version="2.0.0.b201207190900E37sw"
+         unpack="false"/>
+
+   <plugin
+         id="de.walware.ecommons.ltk.core"
+         download-size="192"
+         install-size="374"
+         version="2.0.0.b201207190900E37sw"
+         unpack="false"/>
+
+   <plugin
+         id="de.walware.ecommons.ltk.ui"
+         download-size="503"
+         install-size="1099"
+         version="2.0.0.b201207190900E37sw"
+         unpack="false"/>
+
+   <plugin
+         id="de.walware.thirdparty-org.apache.commons.primitives"
+         download-size="154"
+         install-size="287"
+         version="1.0.0.b201207190900E37sw"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+<!--
+ ###############################################################################
+ # Copyright (c) 2007-2012 WalWare/StatET-Project (www.walware.de/goto/statet).
+ # All rights reserved. This program and the accompanying materials
+ # are made available under the terms of the Eclipse Public License v1.0
+ # which accompanies this distribution, and is available at
+ # http://www.eclipse.org/legal/epl-v10.html
+ ###############################################################################
+-->
+
+<contexts>
+	<context id="r_editor">
+		<description>The R Editor provides you with R specific text editing support.</description>
+		<topic href="reference/r_editor-highlighting.xhtml"
+				label="R Script Editor - Highlighting" />
+		<topic href="reference/r_editor-navigation.xhtml"
+				label="R Script Editor - Navigation" />
+		<topic href="reference/r_editor-contentassist.xhtml"
+				label="R Script Editor - Content Assistant" />
+		<topic href="reference/r_editor-quickfix.xhtml"
+				label="R Script Editor - Quick Fix" />
+		<topic href="reference/r_editor.xhtml"
+				label="R Script Editor ..." />
+		<topic href="/org.eclipse.platform.doc.user/concepts/accessibility/navigation.htm"
+				label="Workbench - Navigating the user interface using the keyboard" />
+	</context>
+	<context id="r_env">
+		<description>An R environment is a given version of R linked to a certain R installation 
+			and R libraries.</description>
+		<topic label="R Environments"
+				href="reference/r_env.xhtml" />
+		<command label="Cheat Sheet: Configure and Launch R Console"
+				serialization="org.eclipse.ui.cheatsheets.openCheatSheet(cheatSheetId=de.walware.statet.r.cheatSheetContent.RConsoleGettingStarted)" />
+	</context>
+	<context id="r_console">
+		<description>The R Console enables command based interaction with R.</description>
+		<topic href="reference/r_console-page.xhtml"
+				label="R Console" />
+	</context>
+	<context id="r_console-launch">
+		<description>The R Console enables command based interaction with R.</description>
+		<topic href="reference/r_console-launch.xhtml"
+				label="Configuration &amp; Launching" />
+		<topic href="reference/r_console-page.xhtml"
+				label="R Console" />
+		<command label="Cheat Sheet: Configure and Launch R Console"
+				serialization="org.eclipse.ui.cheatsheets.openCheatSheet(cheatSheetId=de.walware.statet.r.cheatSheetContent.RConsoleGettingStarted)" />
+	</context>
+	<context id="run_in_r">
+		<topic href="reference/r_editor-codesubmit.xhtml"
+				label="Submit Actions" />
+	</context>
+	<context id="r_remote_console-launch">
+		<description>The R Console enables command based interaction with R running on a server.</description>
+		<topic href="reference/r_remote_console-launch.xhtml"
+				label="Configuration &amp; Launching" />
+		<topic href="reference/r_console-page.xhtml"
+				label="R Console" />
+	</context>
+	<context id="r_cmd-tools">
+		<topic href="reference/r_cmd-tools.xhtml"
+				label="R CMD Tools" />
+	</context>
+	<context id="r_help-search_page">
+		<description>Type a pattern and/or expression for which you want to search in R help documents.</description>
+		<topic href="reference/r_help-search.xhtml"
+				label="R Help Search" />
+	</context>
+</contexts>

@@ -1,0 +1,219 @@
+--- !!com.aptana.scripting.model.BundleElement 
+author: Christopher Williams
+children: 
+- !!com.aptana.scripting.model.MenuElement 
+  children: 
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Evaluate Line / Selection"
+    displayName: "Evaluate Line / Selection"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Evaluate and Replace Expression"
+    displayName: "Evaluate and Replace Expression"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Evaluate and Replace Expression (rounded)"
+    displayName: "Evaluate and Replace Expression (rounded)"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "-"
+    displayName: "-"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Add Numbers in Line / Selection"
+    displayName: "Add Numbers in Line / Selection"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Subtract Numbers in Line / Selection"
+    displayName: "Subtract Numbers in Line / Selection"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "-"
+    displayName: "-"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    children: 
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Decimal to Hex"
+      displayName: "Decimal to Hex"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Decimal to Octal"
+      displayName: "Decimal to Octal"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Hex to Decimal"
+      displayName: "Hex to Decimal"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Octal to Decimal"
+      displayName: "Octal to Decimal"
+      path: (eval)
+    displayName: "Convert"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "-"
+    displayName: "-"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Send Line / Selection to Google Calculator"
+    displayName: "Send Line / Selection to Google Calculator"
+    path: (eval)
+  displayName: "Math"
+  path: (eval)
+- !command 
+  async: false
+  displayName: "Send Line / Selection to Google Calculator"
+  input: 
+  - selection
+  - line
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - CONTROL+M2+C
+
+  outputType: replace_selection
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Decimal to Hex"
+  input: 
+  - selection
+  - word
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - CONTROL+M2+C
+
+  outputType: replace_selection
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Subtract Numbers in Line / Selection"
+  input: 
+  - selection
+  - line
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - CONTROL+M2+C
+
+  outputType: insert_as_text
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Hex to Decimal"
+  input: 
+  - selection
+  - word
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - CONTROL+M2+C
+
+  outputType: replace_selection
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Add Numbers in Line / Selection"
+  input: 
+  - selection
+  - line
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - CONTROL+M2+C
+
+  outputType: insert_as_text
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Evaluate and Replace Expression (rounded)"
+  input: 
+  - selection
+  - line
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - CONTROL+M2+C
+
+  outputType: replace_selection
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Decimal to Octal"
+  input: 
+  - selection
+  - word
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - CONTROL+M2+C
+
+  outputType: replace_selection
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Octal to Decimal"
+  input: 
+  - selection
+  - word
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - CONTROL+M2+C
+
+  outputType: replace_selection
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Evaluate Line / Selection"
+  input: 
+  - selection
+  - line
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - CONTROL+M2+C
+
+  outputType: insert_as_text
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Evaluate and Replace Expression"
+  input: 
+  - selection
+  - line
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - CONTROL+M2+C
+
+  outputType: replace_selection
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+copyright: Copyright 2010 Aptana Inc. Distributed under the MIT license.
+description: Support for performing different calculations, ported from TextMate.
+displayName: "Math"
+path: (eval)
+repository: git://github.com/aptana/math.ruble.git
+visible: true

@@ -1,0 +1,481 @@
+--- !!com.aptana.scripting.model.BundleElement 
+author: Christopher Williams
+children: 
+- !!com.aptana.scripting.model.MenuElement 
+  children: 
+  - !!com.aptana.scripting.model.MenuElement 
+    children: 
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Bigger"
+      displayName: "Bigger"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Smaller"
+      displayName: "Smaller"
+      path: (eval)
+    displayName: "Font"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    children: 
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Convert Character / Selection to Hex"
+      displayName: "Convert Character / Selection to Hex"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Remove Trailing Spaces in Document / Selection"
+      displayName: "Remove Trailing Spaces in Document / Selection"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Remove Unprintable Characters in Document / Selection"
+      displayName: "Remove Unprintable Characters in Document / Selection"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Transliterate Word / Selection to ASCII"
+      displayName: "Transliterate Word / Selection to ASCII"
+      path: (eval)
+    displayName: "Converting / Stripping"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    children: 
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "AES Encrypt Document / Selection With Password..."
+      displayName: "AES Encrypt Document / Selection With Password..."
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "AES Decrypt Document / Selection With Password..."
+      displayName: "AES Decrypt Document / Selection With Password..."
+      path: (eval)
+    displayName: "Encryption"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    children: 
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Distill Document / Selection"
+      displayName: "Distill Document / Selection"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Copy Matching Lines into New Document"
+      displayName: "Copy Matching Lines into New Document"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Copy Non-Matching Lines into New Document"
+      displayName: "Copy Non-Matching Lines into New Document"
+      path: (eval)
+    displayName: "Filtering"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    children: 
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Sort Lines in Document / Selection"
+      displayName: "Sort Lines in Document / Selection"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Sort Lines & Remove Duplicates"
+      displayName: "Sort Lines & Remove Duplicates"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "-"
+      displayName: "-"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Randomize Lines in Document / Selection"
+      displayName: "Randomize Lines in Document / Selection"
+      path: (eval)
+    displayName: "Sorting"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "-"
+    displayName: "-"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Delete to Beginning of Line"
+    displayName: "Delete to Beginning of Line"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Duplicate Line / Selection"
+    displayName: "Duplicate Line / Selection"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Join Lines"
+    displayName: "Join Lines"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "-"
+    displayName: "-"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Execute Selection/Line Inserting Results"
+    displayName: "Execute Selection/Line Inserting Results"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "-"
+    displayName: "-"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Add Line Numbers to Document / Selection"
+    displayName: "Add Line Numbers to Document / Selection"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Statistics for Document / Selection (Word Count)"
+    displayName: "Statistics for Document / Selection (Word Count)"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "-"
+    displayName: "-"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Copyright Notice"
+    displayName: "Copyright Notice"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Current Date - YYYY-MM-DD"
+    displayName: "Current Date - YYYY-MM-DD"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Lorem ipsum"
+    displayName: "Lorem ipsum"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Speak Document / Selection"
+    displayName: "Speak Document / Selection"
+    path: (eval)
+  displayName: "Text"
+  path: (eval)
+- !!com.aptana.scripting.model.SmartTypingPairsElement 
+  displayName: smart_typing_pairs-
+  pairs: 
+  - "\""
+  - "\""
+  - (
+  - )
+  - "{"
+  - "}"
+  - "["
+  - "]"
+  path: (eval)
+  scope: ""
+- !command 
+  async: false
+  displayName: "Sort Lines & Remove Duplicates"
+  input: 
+  - selection
+  - document
+  outputType: replace_selection
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Smaller"
+  input: 
+  - none
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - M1+-
+
+  outputType: discard
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Statistics for Document / Selection (Word Count)"
+  input: 
+  - selection
+  - document
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - CONTROL+M2+N
+
+  outputType: show_as_tooltip
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Transliterate Word / Selection to ASCII"
+  input: 
+  - selection
+  - word
+  outputType: replace_selection
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Execute Selection/Line Inserting Results"
+  input: 
+  - selection
+  - line
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - CTRL+R
+
+  outputType: insert_as_text
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Add Line Numbers to Document / Selection"
+  input: 
+  - selection
+  - document
+  outputType: replace_selection
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Duplicate Line / Selection"
+  input: 
+  - selection
+  - none
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - CONTROL+M2+D
+
+  outputType: insert_as_text
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Delete to Beginning of Line"
+  input: 
+  - none
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - COMMAND+BACKSPACE
+
+  outputType: discard
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "AES Decrypt Document / Selection With Password..."
+  input: 
+  - selection
+  - document
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - CONTROL+SHIFT+COMMAND+E
+
+  outputType: replace_selection
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Remove Unprintable Characters in Document / Selection"
+  input: 
+  - selection
+  - document
+  outputType: replace_selection
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Copy Non-Matching Lines into New Document"
+  input: 
+  - document
+  outputType: create_new_document
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Move to EOL and Insert \".\""
+  input: 
+  - line
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - OPTION+COMMAND+ENTER
+
+  outputType: replace_selection
+  path: (eval)
+  runType: current_thread
+  scope: text
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Convert Character / Selection to Hex"
+  input: 
+  - selection
+  - right_character
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - CONTROL+M2+X
+
+  outputType: replace_selection
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Remove Trailing Spaces in Document / Selection"
+  input: 
+  - selection
+  - document
+  outputType: replace_selection
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Distill Document / Selection"
+  input: 
+  - document
+  outputType: replace_selection
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Sort Lines in Document / Selection"
+  input: 
+  - selection
+  - document
+  outputType: replace_selection
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Move to EOL and Insert \".\" + LF"
+  input: 
+  - line
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - SHIFT+COMMAND+ENTER
+
+  outputType: replace_selection
+  path: (eval)
+  runType: current_thread
+  scope: text
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Randomize Lines in Document / Selection"
+  input: 
+  - selection
+  - document
+  outputType: replace_selection
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Speak Document / Selection"
+  input: 
+  - selection
+  - document
+  outputType: discard
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Join Lines"
+  input: 
+  - none
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - CONTROL+M2+J
+
+  outputType: discard
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Bigger"
+  input: 
+  - none
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - M1+M2+=
+
+  outputType: discard
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "Copy Matching Lines into New Document"
+  input: 
+  - document
+  outputType: create_new_document
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  displayName: "AES Encrypt Document / Selection With Password..."
+  input: 
+  - selection
+  - document
+  keyBindingMap: 
+    ? !!com.aptana.scripting.model.Platform ALL
+    : 
+      - CONTROL+SHIFT+COMMAND+E
+
+  outputType: replace_selection
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - c)
+  displayName: "Copyright Notice"
+  input: 
+  - none
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !command 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - isoD
+  displayName: "Current Date - YYYY-MM-DD"
+  input: 
+  - none
+  outputType: insert_as_snippet
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement 
+  async: false
+  customProperties: 
+    prefix_values: 
+    - lorem
+  displayName: "Lorem ipsum"
+  expansion: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  input: 
+  - none
+  path: (eval)
+  runType: current_thread
+  workingDirectoryType: UNDEFINED
+copyright: Copyright 2010 Aptana Inc. Distributed under the MIT license.
+description: A port of the TextMate bundle. The text bundle has a lot of support for plain text and is a requisite for working with text.
+displayName: "Text"
+path: (eval)
+repository: git://github.com/aptana/text.ruble.git
+visible: true

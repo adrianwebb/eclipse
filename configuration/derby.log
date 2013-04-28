@@ -1,4 +1,4 @@
-2012-05-16 06:31:32.315 GMT Thread[main,6,main] Cleanup action starting
+2013-04-28 04:19:22.439 GMT Thread[main,6,main] Cleanup action starting
 java.sql.SQLException: Database 'aptanaDB' not found.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
@@ -14,7 +14,7 @@ java.sql.SQLException: Database 'aptanaDB' not found.
 	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
 	at java.sql.DriverManager.getConnection(DriverManager.java:582)
 	at java.sql.DriverManager.getConnection(DriverManager.java:207)
-	at com.aptana.usage.AptanaDB.shutdown(AptanaDB.java:151)
+	at com.aptana.usage.AptanaDB.shutdown(AptanaDB.java:156)
 	at com.aptana.usage.UsagePlugin.stop(UsagePlugin.java:71)
 	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -60,7 +60,7 @@ java.sql.SQLException: Database 'aptanaDB' not found.
 	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
 	at java.sql.DriverManager.getConnection(DriverManager.java:582)
 	at java.sql.DriverManager.getConnection(DriverManager.java:207)
-	at com.aptana.usage.AptanaDB.shutdown(AptanaDB.java:151)
+	at com.aptana.usage.AptanaDB.shutdown(AptanaDB.java:156)
 	at com.aptana.usage.UsagePlugin.stop(UsagePlugin.java:71)
 	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
 	at java.security.AccessController.doPrivileged(Native Method)

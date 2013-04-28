@@ -1,0 +1,318 @@
+--- !!com.aptana.scripting.model.BundleElement 
+author: Kris Rasmussen
+children: 
+- !!com.aptana.scripting.model.MenuElement 
+  children: 
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Create App"
+    displayName: "Create App"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "-"
+    displayName: "-"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Deploy App"
+    displayName: "Deploy App"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "-"
+    displayName: "-"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Open App in Web Browser"
+    displayName: "Open App in Web Browser"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    children: 
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Add Collaborator"
+      displayName: "Add Collaborator"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Remove Collaborator"
+      displayName: "Remove Collaborator"
+      path: (eval)
+    displayName: "Sharing"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    children: 
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Rake db:migrate on Heroku"
+      displayName: "Rake db:migrate on Heroku"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Push Local Database to Heroku"
+      displayName: "Push Local Database to Heroku"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Pull Remote Database from Heroku"
+      displayName: "Pull Remote Database from Heroku"
+      path: (eval)
+    displayName: "Database"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    children: 
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Turn Maintence On"
+      displayName: "Turn Maintence On"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Turn Maintence Off"
+      displayName: "Turn Maintence Off"
+      path: (eval)
+    displayName: "Maintenance"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    children: 
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Console"
+      displayName: "Console"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Rake Command"
+      displayName: "Rake Command"
+      path: (eval)
+    displayName: "Remote"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    children: 
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Add Config Var"
+      displayName: "Add Config Var"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Clear Config Vars"
+      displayName: "Clear Config Vars"
+      path: (eval)
+    displayName: "Config Vars"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    children: 
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Capture Bundle"
+      displayName: "Capture Bundle"
+      path: (eval)
+    - !!com.aptana.scripting.model.MenuElement 
+      commandName: "Download Bundle"
+      displayName: "Download Bundle"
+      path: (eval)
+    displayName: "Backups"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "App Info"
+    displayName: "App Info"
+    path: (eval)
+  - !!com.aptana.scripting.model.MenuElement 
+    commandName: "Rename App"
+    displayName: "Rename App"
+    path: (eval)
+  displayName: "Heroku"
+  path: (eval)
+  scope: source.ruby, project.rails
+- !command 
+  async: false
+  displayName: "Add Collaborator"
+  input: 
+  - none
+  outputType: discard
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby, project.rails
+  workingDirectoryType: CURRENT_PROJECT
+- !command 
+  async: false
+  displayName: "Remove Collaborator"
+  input: 
+  - none
+  outputType: discard
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby, project.rails
+  workingDirectoryType: CURRENT_PROJECT
+- !command 
+  async: false
+  displayName: "Install Gem"
+  input: 
+  - none
+  outputType: discard
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby, project.rails
+  workingDirectoryType: CURRENT_PROJECT
+- !command 
+  async: false
+  displayName: "Rake db:migrate on Heroku"
+  input: 
+  - none
+  outputType: discard
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby, project.rails
+  workingDirectoryType: CURRENT_PROJECT
+- !command 
+  async: false
+  displayName: "Push Local Database to Heroku"
+  input: 
+  - none
+  outputType: discard
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby, project.rails
+  workingDirectoryType: CURRENT_PROJECT
+- !command 
+  async: false
+  displayName: "Pull Remote Database from Heroku"
+  input: 
+  - none
+  outputType: discard
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby, project.rails
+  workingDirectoryType: CURRENT_PROJECT
+- !command 
+  async: false
+  displayName: "Turn Maintence On"
+  input: 
+  - none
+  outputType: discard
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby, project.rails
+  workingDirectoryType: CURRENT_PROJECT
+- !command 
+  async: false
+  displayName: "Turn Maintence Off"
+  input: 
+  - none
+  outputType: discard
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby, project.rails
+  workingDirectoryType: CURRENT_PROJECT
+- !command 
+  async: false
+  displayName: "Add Config Var"
+  input: 
+  - none
+  outputType: discard
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby, project.rails
+  workingDirectoryType: CURRENT_PROJECT
+- !command 
+  async: false
+  displayName: "Clear Config Vars"
+  input: 
+  - none
+  outputType: discard
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby, project.rails
+  workingDirectoryType: CURRENT_PROJECT
+- !command 
+  async: false
+  displayName: "Console"
+  input: 
+  - none
+  outputType: discard
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby, project.rails
+  workingDirectoryType: CURRENT_PROJECT
+- !command 
+  async: false
+  displayName: "Rake Command"
+  input: 
+  - none
+  outputType: discard
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby, project.rails
+  workingDirectoryType: CURRENT_PROJECT
+- !command 
+  async: false
+  displayName: "App Info"
+  input: 
+  - none
+  outputType: discard
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby, project.rails
+  workingDirectoryType: CURRENT_PROJECT
+- !command 
+  async: false
+  displayName: "Create App"
+  input: 
+  - none
+  outputType: discard
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby, project.rails
+  workingDirectoryType: CURRENT_PROJECT
+- !command 
+  async: false
+  displayName: "Deploy App"
+  input: 
+  - none
+  outputType: discard
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby, project.rails
+  workingDirectoryType: CURRENT_PROJECT
+- !command 
+  async: false
+  displayName: "Open App in Web Browser"
+  input: 
+  - none
+  outputType: discard
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby, project.rails
+  workingDirectoryType: CURRENT_PROJECT
+- !command 
+  async: false
+  displayName: "Rename App"
+  input: 
+  - none
+  outputType: discard
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby, project.rails
+  workingDirectoryType: CURRENT_PROJECT
+- !command 
+  async: false
+  displayName: "Create and Deploy App"
+  input: 
+  - none
+  outputType: discard
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby, project.rails
+  workingDirectoryType: CURRENT_PROJECT
+- !command 
+  async: false
+  displayName: "Download Bundle"
+  input: 
+  - none
+  outputType: discard
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby, project.rails
+  workingDirectoryType: CURRENT_PROJECT
+- !command 
+  async: false
+  displayName: "Capture Bundle"
+  input: 
+  - none
+  outputType: discard
+  path: (eval)
+  runType: current_thread
+  scope: source.ruby, project.rails
+  workingDirectoryType: CURRENT_PROJECT
+copyright: Copyright 2010 Aptana Inc. Distributed under the MIT license.
+description: Easy deployment with Heroku from within Studio 3
+displayName: "Heroku"
+path: (eval)
+repository: git://github.com/aptana/heroku.ruble.git
+visible: true

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config transient="false" date="1360475709627" version="3.0">
+	<site enabled="true" updateable="true" policy="USER-EXCLUDE" url="platform:/base/">
+		<feature id="org.eclipse.jdt" url="features/org.eclipse.jdt_3.7.2.v20120120-1414-7z8gFcuFMP7BW5XTz0jLTnz0l9B1/" version="3.7.2.v20120120-1414-7z8gFcuFMP7BW5XTz0jLTnz0l9B1">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.rcp.feature.source" url="features/org.eclipse.equinox.p2.rcp.feature.source_1.0.1.v20110906-1605-782EqBqNKGVkiV-PUsgz-uny4gqO/" version="1.0.1.v20110906-1605-782EqBqNKGVkiV-PUsgz-uny4gqO">
+		</feature>
+		<feature id="org.tigris.subversion.clientadapter.javahl.feature" plugin-identifier="org.tigris.subversion.clientadapter.javahl" url="features/org.tigris.subversion.clientadapter.javahl.feature_1.6.17/" version="1.6.17">
+		</feature>
+		<feature id="org.cloudsmith.geppetto" url="features/org.cloudsmith.geppetto_2.2.0.v20120510-1511/" version="2.2.0.v20120510-1511">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.rcp.feature" url="features/org.eclipse.equinox.p2.rcp.feature_1.0.1.v20110906-1605-782EqBqNKGVkiV-PUsgz-uny4gqO/" version="1.0.1.v20110906-1605-782EqBqNKGVkiV-PUsgz-uny4gqO">
+		</feature>
+		<feature id="com.aptana.feature" plugin-identifier="com.aptana.branding" url="features/com.aptana.feature_3.1.2.1335474991-BG7H8GBQAf6CPXq7v1DC34EXgII8/" version="3.1.2.1335474991-BG7H8GBQAf6CPXq7v1DC34EXgII8">
+		</feature>
+		<feature id="de.walware.rj.eclient" url="features/de.walware.rj.eclient_1.1.0.b201207190900E37sw/" version="1.1.0.b201207190900E37sw">
+		</feature>
+		<feature id="org.eclipse.help" plugin-identifier="org.eclipse.help.base" url="features/org.eclipse.help_1.3.0.v20110530-0844-7i7uFFmFFl8nvqbDpEqTvx/" version="1.3.0.v20110530-0844-7i7uFFmFFl8nvqbDpEqTvx">
+		</feature>
+		<feature id="org.eclipse.dltk.core.index" url="features/org.eclipse.dltk.core.index_3.0.0.v20101026-0553-79--9oA5885GAJ/" version="3.0.0.v20101026-0553-79--9oA5885GAJ">
+		</feature>
+		<feature id="org.chromium.sdk" url="features/org.chromium.sdk_0.3.4.201202250214/" version="0.3.4.201202250214">
+		</feature>
+		<feature id="org.tigris.subversion.subclipse.graph.feature" plugin-identifier="org.tigris.subversion.subclipse.graph" url="features/org.tigris.subversion.subclipse.graph.feature_1.0.9/" version="1.0.9">
+		</feature>
+		<feature id="org.chromium.sdk.wip.source" url="features/org.chromium.sdk.wip.source_0.1.6.201202250216/" version="0.1.6.201202250216">
+		</feature>
+		<feature id="org.eclipse.rcp" url="features/org.eclipse.rcp_3.7.2.v20120120-1424-9DB5FmnFq5JCf1UA38R-kz0S0272/" version="3.7.2.v20120120-1424-9DB5FmnFq5JCf1UA38R-kz0S0272">
+		</feature>
+		<feature id="org.python.pydev.feature" plugin-identifier="org.python.pydev" url="features/org.python.pydev.feature_2.5.0.2012050419/" version="2.5.0.2012050419">
+		</feature>
+		<feature id="org.python.pydev.django_templates.feature" plugin-identifier="org.python.pydev.django_templates" url="features/org.python.pydev.django_templates.feature_2.5.0.2012050419/" version="2.5.0.2012050419">
+		</feature>
+		<feature id="de.walware.statet.r" url="features/de.walware.statet.r_3.0.1.b201207190900E37sw/" version="3.0.1.b201207190900E37sw">
+		</feature>
+		<feature id="org.eclipse.linuxtools.man" url="features/org.eclipse.linuxtools.man_0.0.1.201203221532/" version="0.0.1.201203221532">
+		</feature>
+		<feature id="org.chromium.debug.source" url="features/org.chromium.debug.source_0.3.4.201202250214/" version="0.3.4.201202250214">
+		</feature>
+		<feature id="org.eclipse.help.source" url="features/org.eclipse.help.source_1.3.0.v20110530-0844-7i7uFFmFFl8nvqbDpEqTvx/" version="1.3.0.v20110530-0844-7i7uFFmFFl8nvqbDpEqTvx">
+		</feature>
+		<feature id="org.eclipse.dltk.core" plugin-identifier="org.eclipse.dltk" url="features/org.eclipse.dltk.core_3.0.0.v20101211-0331-7l-2ED-z0UkhYdtV3_LBO/" version="3.0.0.v20101211-0331-7l-2ED-z0UkhYdtV3_LBO">
+		</feature>
+		<feature id="org.chromium.sdk.wipbackends.source" url="features/org.chromium.sdk.wipbackends.source_0.1.6.201202250216/" version="0.1.6.201202250216">
+		</feature>
+		<feature id="org.tigris.subversion.subclipse" plugin-identifier="org.tigris.subversion.subclipse.core" url="features/org.tigris.subversion.subclipse_1.6.18/" version="1.6.18">
+		</feature>
+		<feature id="org.chromium.sdk.source" url="features/org.chromium.sdk.source_0.3.4.201202250214/" version="0.3.4.201202250214">
+		</feature>
+		<feature id="de.walware.rj.core" url="features/de.walware.rj.core_1.1.0.b201207190900E37sw/" version="1.1.0.b201207190900E37sw">
+		</feature>
+		<feature id="de.walware.ecommons.ltk" url="features/de.walware.ecommons.ltk_2.0.0.b201207190900E37sw/" version="2.0.0.b201207190900E37sw">
+		</feature>
+		<feature id="org.tigris.subversion.clientadapter.feature" plugin-identifier="org.tigris.subversion.clientadapter" url="features/org.tigris.subversion.clientadapter.feature_1.6.12/" version="1.6.12">
+		</feature>
+		<feature id="com.aptana.webkitbrowser" url="features/com.aptana.webkitbrowser_1.0.0.1311115718-7A--7Qc7B1h1hE4/" version="1.0.0.1311115718-7A--7Qc7B1h1hE4">
+		</feature>
+		<feature id="org.eclipse.platform" url="features/org.eclipse.platform_3.7.2.v20120207-1839-9gF7UHPDFxGjd-PqDr2jX_4yKaumkoHTz04_q-q/" version="3.7.2.v20120207-1839-9gF7UHPDFxGjd-PqDr2jX_4yKaumkoHTz04_q-q">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.core.feature" url="features/org.eclipse.equinox.p2.core.feature_1.0.1.v20110906-1605-8290FZ9FVKHVRKtmx3fpNuo02129/" version="1.0.1.v20110906-1605-8290FZ9FVKHVRKtmx3fpNuo02129">
+		</feature>
+		<feature id="org.eclipse.sdk" url="features/org.eclipse.sdk_3.7.2.r37x_v20111213-7Q7xALDPb32vCjY6UACVPdFTz-icPtJkUadz0lMmk4z-8/" version="3.7.2.r37x_v20111213-7Q7xALDPb32vCjY6UACVPdFTz-icPtJkUadz0lMmk4z-8">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.user.ui.source" url="features/org.eclipse.equinox.p2.user.ui.source_2.1.2.R37x_v20110815-1155-6-Bk8pYWZz0qUTX5I15GZWwbXkrl/" version="2.1.2.R37x_v20110815-1155-6-Bk8pYWZz0qUTX5I15GZWwbXkrl">
+		</feature>
+		<feature id="de.walware.eutils.autorun" url="features/de.walware.eutils.autorun_0.5.0.b201207190900E37sw/" version="0.5.0.b201207190900E37sw">
+		</feature>
+		<feature id="org.chromium.debug.jsdtbridge.source" url="features/org.chromium.debug.jsdtbridge.source_0.3.4.201202250214/" version="0.3.4.201202250214">
+		</feature>
+		<feature id="com.sun.jna" url="features/com.sun.jna_3.2.7/" version="3.2.7">
+		</feature>
+		<feature id="com.something.eclipse.shelled" url="features/com.something.eclipse.shelled_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.eclipse.php.sdk" url="features/org.eclipse.php.sdk_3.0.0.v201201110400-77-184_2BEICRgM_fMVcz0M4Va9O/" version="3.0.0.v201201110400-77-184_2BEICRgM_fMVcz0M4Va9O">
+		</feature>
+		<feature id="de.walware.ecommons.e" url="features/de.walware.ecommons.e_1.2.1.b201207190900E37sw/" version="1.2.1.b201207190900E37sw">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.user.ui" url="features/org.eclipse.equinox.p2.user.ui_2.1.2.R37x_v20110815-1155-6-Bk8pYWZz0qUTX5I15GZWwbXkrl/" version="2.1.2.R37x_v20110815-1155-6-Bk8pYWZz0qUTX5I15GZWwbXkrl">
+		</feature>
+		<feature id="com.aptana.php.feature" plugin-identifier="com.aptana.editor.php" url="features/com.aptana.php.feature_3.1.1.201204261455-7D-27CEEDIPHFDG/" version="3.1.1.201204261455-7D-27CEEDIPHFDG">
+		</feature>
+		<feature id="org.eclipse.php" url="features/org.eclipse.php_3.0.1.v201201110400-7V-79F8NcJTcJTTTJwJJ/" version="3.0.1.v201201110400-7V-79F8NcJTcJTTTJwJJ">
+		</feature>
+		<feature id="org.chromium.sdk.wipbackends" url="features/org.chromium.sdk.wipbackends_0.1.6.201202250216/" version="0.1.6.201202250216">
+		</feature>
+		<feature id="org.eclipse.cvs.source" url="features/org.eclipse.cvs.source_1.3.100.v20110520-0800-7B78FHl9VF7BD7KBM4GP9C/" version="1.3.100.v20110520-0800-7B78FHl9VF7BD7KBM4GP9C">
+		</feature>
+		<feature id="de.walware.ecommons.edb" url="features/de.walware.ecommons.edb_0.2.0.b201207190900E37sw/" version="0.2.0.b201207190900E37sw">
+		</feature>
+		<feature id="de.walware.statet.r.sweave" url="features/de.walware.statet.r.sweave_3.0.1.b201207190900E37sw/" version="3.0.1.b201207190900E37sw">
+		</feature>
+		<feature id="org.radrails.rails" plugin-identifier="com.aptana.editor.ruby" url="features/org.radrails.rails_3.1.1.201204261519-7e-7Q7f529IbQEDF/" version="3.1.1.201204261519-7e-7Q7f529IbQEDF">
+		</feature>
+		<feature id="org.chromium.debug" url="features/org.chromium.debug_0.3.4.201202250214/" version="0.3.4.201202250214">
+		</feature>
+		<feature id="org.eclipse.cvs" url="features/org.eclipse.cvs_1.3.100.v20110520-0800-7B78FHl9VF7BD7KBM4GP9C/" version="1.3.100.v20110520-0800-7B78FHl9VF7BD7KBM4GP9C">
+		</feature>
+		<feature id="org.eclipse.platform.source" url="features/org.eclipse.platform.source_3.7.2.v20120207-1839-9gF7UHPDFxGjd-PqDr2jX_4yKaumkoHTz04_q-q/" version="3.7.2.v20120207-1839-9gF7UHPDFxGjd-PqDr2jX_4yKaumkoHTz04_q-q">
+		</feature>
+		<feature id="org.eclipse.pde" url="features/org.eclipse.pde_3.7.2.v20120120-1420-7b7rFUOFEx2Xnqafnpz0E--0/" version="3.7.2.v20120120-1420-7b7rFUOFEx2Xnqafnpz0E--0">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.extras.feature.source" url="features/org.eclipse.equinox.p2.extras.feature.source_1.0.1.v20110906-1605-7A4FD4DiVOMap8cHSc6vPuny4gqO/" version="1.0.1.v20110906-1605-7A4FD4DiVOMap8cHSc6vPuny4gqO">
+		</feature>
+		<feature id="org.eclipse.pde.source" url="features/org.eclipse.pde.source_3.7.2.v20120120-1420-7b7rFUOFEx2Xnqafnpz0E--0/" version="3.7.2.v20120120-1420-7b7rFUOFEx2Xnqafnpz0E--0">
+		</feature>
+		<feature id="com.collabnet.subversion.merge.feature" plugin-identifier="com.collabnet.subversion.merge" url="features/com.collabnet.subversion.merge.feature_2.2.4/" version="2.2.4">
+		</feature>
+		<feature id="org.eclipse.jdt.source" url="features/org.eclipse.jdt.source_3.7.2.v20120120-1414-7z8gFcuFMP7BW5XTz0jLTnz0l9B1/" version="3.7.2.v20120120-1414-7z8gFcuFMP7BW5XTz0jLTnz0l9B1">
+		</feature>
+		<feature id="org.eclipse.emf.ecore" url="features/org.eclipse.emf.ecore_2.7.1.v20120127-1122/" version="2.7.1.v20120127-1122">
+		</feature>
+		<feature id="org.chromium.source" url="features/org.chromium.source_0.3.4.201202250214/" version="0.3.4.201202250214">
+		</feature>
+		<feature id="com.aptana.feature.studio" plugin-identifier="com.aptana.branding" url="features/com.aptana.feature.studio_3.1.2.201205041303-7E7C37ICGMDYHbMaAUJRBBUmo71Q/" version="3.1.2.201205041303-7E7C37ICGMDYHbMaAUJRBBUmo71Q">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.core.feature.source" url="features/org.eclipse.equinox.p2.core.feature.source_1.0.1.v20110906-1605-8290FZ9FVKHVRKtmx3fpNuo02129/" version="1.0.1.v20110906-1605-8290FZ9FVKHVRKtmx3fpNuo02129">
+		</feature>
+		<feature id="OpenInTerminal" url="features/OpenInTerminal_1.0.5/" version="1.0.5">
+		</feature>
+		<feature id="org.eclipse.rcp.source" url="features/org.eclipse.rcp.source_3.7.2.v20120120-1424-9DB5FmnFq5JCf1UA38R-kz0S0272/" version="3.7.2.v20120120-1424-9DB5FmnFq5JCf1UA38R-kz0S0272">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.extras.feature" url="features/org.eclipse.equinox.p2.extras.feature_1.0.1.v20110906-1605-7A4FD4DiVOMap8cHSc6vPuny4gqO/" version="1.0.1.v20110906-1605-7A4FD4DiVOMap8cHSc6vPuny4gqO">
+		</feature>
+		<feature id="org.eclipse.php.source" url="features/org.eclipse.php.source_3.0.1.v201201110400-7V-79F8NcJTcJTTTJwJJ/" version="3.0.1.v201201110400-7V-79F8NcJTcJTTTJwJJ">
+		</feature>
+		<feature id="com.aptana.ide.feature.libraries.subscription" url="features/com.aptana.ide.feature.libraries.subscription_2.0.2.1330733779-3-1244184488A/" version="2.0.2.1330733779-3-1244184488A">
+		</feature>
+	</site>
+</config>

@@ -1,16 +1,16 @@
 Signature-Version: 1.0
 SHA1-Digest-Manifest-Main-Attributes: PazBFgv23XSTR9yOIbnv4sn0gP0=
-Created-By: 1.6.0_20 (Sun Microsystems Inc.)
-SHA1-Digest-Manifest: aCScfCZQpw9VdlSnlZ86yx+tbds=
+Created-By: 1.6.0_27 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: 37lsRb/PU2Qw2ze/N6d3E2rdp8I=
 
 Name: OSGI-INF/l10n/bundle.properties
 SHA1-Digest: dEmONTRacUoiH4f6ivxN9zQHzoo=
 
+Name: WinRegistry-4.4.jar
+SHA1-Digest: nh+cp1Xbjfsv1qzl62cJIDCO8hE=
+
 Name: derby-NOTICE
 SHA1-Digest: bL1tPIqnBffRCLEAEIuQdar8TyY=
-
-Name: WinRegistry-4.4.jar
-SHA1-Digest: RBnvkiSzrw/w4oyFLGcpYoD3eaM=
 
 Name: META-INF/eclipse.inf
 SHA1-Digest: SwPvGXzoqhbu6llulpm8WpBxiUo=
@@ -22,32 +22,32 @@ Name: os/macosx/cocoasudo
 SHA1-Digest: 0zCSWpZX400MZpOyrZZWi5fHucQ=
 
 Name: ch/randelshofer/quaqua/util/BinaryPListParser$BPLUid.class
-SHA1-Digest: LF86qgHNVRDri8BzRtJDwnu3F2o=
+SHA1-Digest: Gd+c1QIGLex0gsMCVjHKEsffHBg=
 
 Name: derby-LICENSE
 SHA1-Digest: upFo0fTeHFrBc8IevHZhfvy4aqU=
 
 Name: ch/randelshofer/quaqua/util/BinaryPListParser$BPLArray.class
-SHA1-Digest: N6sT2+7Amv2M/KOhgPwnVS8PQMA=
+SHA1-Digest: pRPjVAx6P02k5kAaVf6NQaWoG9w=
 
 Name: derby.jar
-SHA1-Digest: XU60U5HBhalBCZLdxtdFejRz0iA=
+SHA1-Digest: HqPvYthGmMtwql5ORFAaVnHa7Xk=
 
 Name: ch/randelshofer/quaqua/util/BinaryPListParser$BPLDict.class
-SHA1-Digest: V09inxyLckuS87GmEsUq6xu/+Tc=
+SHA1-Digest: mhmcU8rclcbF1SlJYpBFTWK+1vM=
+
+Name: ch/randelshofer/quaqua/util/BinaryPListParser.class
+SHA1-Digest: 0dnFGsPjxSmqGF65KikyMBEokf8=
 
 Name: META-INF/p2.inf
 SHA1-Digest: jZwn1AkZlirDSFVeCv3iKQWgBNM=
-
-Name: ch/randelshofer/quaqua/util/BinaryPListParser.class
-SHA1-Digest: KQZQhluWlxTKt/itfKpAM9uDuyo=
 
 Name: quaqua.license.html
 SHA1-Digest: maHEl1ijBEMhLuAHQGgFDY1FEx4=
 
 Name: com/aptana/plist/IPListParser.class
-SHA1-Digest: ZMljQkn77wpPS+tka+fmaBnAepU=
+SHA1-Digest: aL8dMpHdagJ8uEENFd2sdllwG10=
 
 Name: uuid.jar
-SHA1-Digest: OT/EOGxTISVZvMKicZz3DkRgV9E=
+SHA1-Digest: ps4OiRgmByUei/qnViixkHduPMk=
 

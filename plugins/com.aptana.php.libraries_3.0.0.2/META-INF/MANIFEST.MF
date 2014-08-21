@@ -17,7 +17,7 @@ Name: trove-license.txt
 SHA1-Digest: eUEooqMFTcbO7hi05MKud05Qr88=
 
 Name: trove-3.0.0rc1.jar
-SHA1-Digest: PTQZ6rWBNyBrtNxTagWDAWfLCqg=
+SHA1-Digest: WPN9UerwbfuGk6Z1uGKsM5zjhsw=
 
 Name: lgpl-3.0.txt
 SHA1-Digest: 59Vj9Sv1KV5tuh1nrCPp9qFg+rk=
@@ -32,5 +32,5 @@ Name: plugin.properties
 SHA1-Digest: u5SncvpbsC+Ux/skaCQFIxZaA+0=
 
 Name: java_cup.jar
-SHA1-Digest: 82Kh13IYJcXXJUqtYUc9iw/FN68=
+SHA1-Digest: 2tyPPcA2CHcbR5wgTAi1IjFYHVc=
 

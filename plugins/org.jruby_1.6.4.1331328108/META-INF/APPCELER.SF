@@ -1,7 +1,7 @@
 Signature-Version: 1.0
 SHA1-Digest-Manifest-Main-Attributes: H1w8U5YtLs/bCUds96yfgcqBe1w=
-Created-By: 1.6.0_20 (Sun Microsystems Inc.)
-SHA1-Digest-Manifest: irpeSgaP3bNezkAKDAKjgC67KG8=
+Created-By: 1.6.0_27 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: TBKVLDJq+f7g3HVddXK7N0GBEI4=
 
 Name: lib/ruby/gems/1.8/gems/rake-0.8.7/test/data/rakelib/test1.rb
 SHA1-Digest: 3oETonUHFDSQid3h5TezJo4K0TA=
@@ -2811,7 +2811,7 @@ Name: lib/ruby/1.9/rake/contrib/compositepublisher.rb
 SHA1-Digest: OBPqedzei6/0ofaANLLwBKe7NeE=
 
 Name: lib/jruby.jar
-SHA1-Digest: S92OF77bpZCvPJ6Sw9A9Y+P10n0=
+SHA1-Digest: qk7730xUvdMUsOMoU7kq1cYfLS4=
 
 Name: lib/ruby/gems/1.8/gems/rake-0.8.7/test/data/chains/Rakefile
 SHA1-Digest: nis1ypAjZGPp8/j+5Ionoh0sT4M=

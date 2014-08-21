@@ -1,10 +1,10 @@
 Signature-Version: 1.0
 SHA1-Digest-Manifest-Main-Attributes: zN1XWEUy3qEfgcGf70/cwK6YyR8=
-Created-By: 1.6.0_20 (Sun Microsystems Inc.)
-SHA1-Digest-Manifest: AMeSLG3TUo14yPOA7+XkUQivTmE=
+Created-By: 1.6.0_27 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: i5BI038449pGQiSyAjuDgUMUHco=
 
 Name: trove-3.0.0rc1.jar
-SHA1-Digest: dD9vu5ZUQnOMvoPdD4UHCA/tVY8=
+SHA1-Digest: GzycWT8bvTdPGB6NTz9pbmyAWkI=
 
 Name: trove-license.txt
 SHA1-Digest: wCYftNPUu/PKqhBo43ELmqQovm4=
@@ -25,5 +25,5 @@ Name: plugin.properties
 SHA1-Digest: qVbFAERYPjarYBsl2/Unm6jroaU=
 
 Name: java_cup.jar
-SHA1-Digest: xWigOX1/RZcrz6c/ttZn4OfnlEs=
+SHA1-Digest: dct5nA5VHOdmGjKbEgEnxFy8zTE=
 

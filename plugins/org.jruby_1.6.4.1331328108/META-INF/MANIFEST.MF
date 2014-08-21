@@ -2874,7 +2874,7 @@ Name: lib/ruby/1.8/rexml/validation/validation.rb
 SHA1-Digest: HFDUAQwaK6Ax8j6ZEYHT7LevNk8=
 
 Name: lib/jruby.jar
-SHA1-Digest: GU6Fq31Yr5Zwc6l5mqWe+BmRmHQ=
+SHA1-Digest: O2L3O0kGr6odQVY0/L2Kwyq4A8A=
 
 Name: lib/ruby/1.9/yaml/store.rb
 SHA1-Digest: lB2HamjAyWr5fc8vgc8PyljUpBQ=

@@ -1,0 +1,29 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: DBNmG82TCg0eliPm7gZFjC8K3XY=
+Created-By: 1.6.0_27 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: IvBn+HMWyf7sXmKn1dXUYrqcs3Q=
+
+Name: LICENSE.TXT
+SHA1-Digest: FHc+Z/Lc4OpgB2JVUwxpRyVWo+g=
+
+Name: icons/python_16x16.png
+SHA1-Digest: jWKIi+15bp4peW12gmzKwoq0g+A=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: SwPvGXzoqhbu6llulpm8WpBxiUo=
+
+Name: plugin.xml
+SHA1-Digest: 4VTCMUTYGeU0QWdmjWsMswisJMg=
+
+Name: icons/searchm_obj.gif
+SHA1-Digest: 5Uyr7sTBimTKLQQ/tfbxcEELCSk=
+
+Name: pydev.jar
+SHA1-Digest: 9KqKJmm0NJfgOw7OFxlnMHIfRhA=
+
+Name: icons/class_hi.gif
+SHA1-Digest: nrlqvlVzk2fW2YiUm5Bf2Z9/aIU=
+
+Name: icons/python_file.gif
+SHA1-Digest: xzIY3j8VWdlEW46X016QU0SGERM=
+

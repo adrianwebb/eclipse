@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+Export-Package: com.python.pydev.codecompletion
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: codecompletion.jar
+Eclipse-BundleShape: dir
+Bundle-Name: Codecompletion Plug-in
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.jf
+ ace.text,org.python.pydev.shared_core,org.python.pydev.shared_ui,org.
+ python.pydev;bundle-version="2.7.6",com.python.pydev,org.python.pydev
+ .core,org.python.pydev.parser,org.junit;bundle-version="4.0";resoluti
+ on:=optional,com.python.pydev.fastparser,org.eclipse.core.resources,c
+ om.python.pydev.analysis,org.eclipse.ui.editors,com.python.pydev.refa
+ ctoring,org.python.pydev.shared_interactive_console,org.eclipse.ui.wo
+ rkbench.texteditor
+Bundle-Vendor: Aptana
+Bundle-Version: 3.0.0.1388187472
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.python.pydev.codecompletion.CodecompletionPlugin
+Bundle-SymbolicName: com.python.pydev.codecompletion; singleton:=true
+
+Name: LICENSE.TXT
+SHA1-Digest: p+9tB+uCL9D+iYG9D8zDHITgqgU=
+
+Name: codecompletion.jar
+SHA1-Digest: P2w4ouNp5H9y03/HAe6xScmrIk0=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 6mDW8kS/T9pK7w1by/wcxy21Z20=
+
+Name: plugin.xml
+SHA1-Digest: 1DoBoOGearFtj9D6UDW7qWGdY4A=
+

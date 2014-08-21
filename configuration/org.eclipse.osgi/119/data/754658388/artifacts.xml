@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='/usr/local/lib/eclipse4.4/dropins/shelled/.eclipseextension' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='3'>
+    <property name='p2.timestamp' value='1408603437128'/>
+    <property name='org.eclipse.update.site.policy' value='USER-EXCLUDE'/>
+    <property name='org.eclipse.update.site.list' value=''/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='4'>
+    <artifact classifier='osgi.bundle' id='net.sourceforge.shelled.core' version='2.0.0.201307080909'>
+      <properties size='2'>
+        <property name='artifact.size' value='14797'/>
+        <property name='download.size' value='14797'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/usr/local/lib/eclipse4.4/dropins/shelled/plugins/net.sourceforge.shelled.core_2.0.0.201307080909.jar'/>
+        <property name='file.name' value='/usr/local/lib/eclipse4.4/dropins/shelled/plugins/net.sourceforge.shelled.core_2.0.0.201307080909.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sourceforge.shelled.doc' version='2.0.0.201307080909'>
+      <properties size='2'>
+        <property name='artifact.size' value='382574'/>
+        <property name='download.size' value='382574'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/usr/local/lib/eclipse4.4/dropins/shelled/plugins/net.sourceforge.shelled.doc_2.0.0.201307080909.jar'/>
+        <property name='file.name' value='/usr/local/lib/eclipse4.4/dropins/shelled/plugins/net.sourceforge.shelled.doc_2.0.0.201307080909.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.man.core' version='1.1.0.201306111610'>
+      <properties size='2'>
+        <property name='artifact.size' value='23678'/>
+        <property name='download.size' value='23678'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/usr/local/lib/eclipse4.4/dropins/shelled/plugins/org.eclipse.linuxtools.man.core_1.1.0.201306111610.jar'/>
+        <property name='file.name' value='/usr/local/lib/eclipse4.4/dropins/shelled/plugins/org.eclipse.linuxtools.man.core_1.1.0.201306111610.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sourceforge.shelled.ui' version='2.0.0.201307080909'>
+      <properties size='2'>
+        <property name='artifact.size' value='77748'/>
+        <property name='download.size' value='77748'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/usr/local/lib/eclipse4.4/dropins/shelled/plugins/net.sourceforge.shelled.ui_2.0.0.201307080909.jar'/>
+        <property name='file.name' value='/usr/local/lib/eclipse4.4/dropins/shelled/plugins/net.sourceforge.shelled.ui_2.0.0.201307080909.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

@@ -1,10 +1,10 @@
 Signature-Version: 1.0
 SHA1-Digest-Manifest-Main-Attributes: z70drdieQBxblU013FGzQ0ulJ3M=
-Created-By: 1.6.0_20 (Sun Microsystems Inc.)
-SHA1-Digest-Manifest: NJGJcyOzA198SUWdv+uhMlf5IKU=
+Created-By: 1.6.0_27 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: VCPRC0t/QxSpx9ZdEcKEsIVnX/k=
 
 Name: license.jar
-SHA1-Digest: z/UDPJKzfBQUiBbAcU3SzcpWm0U=
+SHA1-Digest: EIg7fhaZ9A6ImOGLGPXXL1YNCn4=
 
 Name: META-INF/eclipse.inf
 SHA1-Digest: SwPvGXzoqhbu6llulpm8WpBxiUo=
@@ -13,5 +13,5 @@ Name: plugin.properties
 SHA1-Digest: J5oiRcdYt7/+BFv205O7G8+xNoM=
 
 Name: edtftpj-pro.jar
-SHA1-Digest: 3DYb/3Cxh+ackgJ/+mSCfsMFm4I=
+SHA1-Digest: nQ4s1ut3r+ULqLsHyYc4DbdRNNc=
 

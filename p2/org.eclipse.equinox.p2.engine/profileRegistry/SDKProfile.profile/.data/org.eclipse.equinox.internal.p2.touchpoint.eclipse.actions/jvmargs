@@ -1,5 +1,0 @@
-#Wed May 16 01:13:06 EDT 2012
--Xms=40m
-eclipse.userDefined\:-Xms=512M
--Xmx=384m
-eclipse.userDefined\:-Xmx=1024M

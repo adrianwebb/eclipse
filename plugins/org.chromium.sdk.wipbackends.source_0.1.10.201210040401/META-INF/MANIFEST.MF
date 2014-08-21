@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Bundle-Vendor: %providerName
-Bundle-Version: 0.1.10.201210040401
-Bundle-Localization: plugin
-Bundle-Name: %pluginName
-Bundle-SymbolicName: org.chromium.sdk.wipbackends.source; singleton=tr
- ue
-
-

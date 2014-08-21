@@ -40,7 +40,7 @@ Bundle-SymbolicName: com.aptana.ide.libraries.subscription
 Bundle-RequiredExecutionEnvironment: J2SE-1.5
 
 Name: license.jar
-SHA1-Digest: 8FkDRLaqS86xJ1x6d+8DOrEUTLU=
+SHA1-Digest: NrlPN8pxzVvdPK+adx96qYge2xk=
 
 Name: META-INF/eclipse.inf
 SHA1-Digest: 6mDW8kS/T9pK7w1by/wcxy21Z20=
@@ -49,5 +49,5 @@ Name: plugin.properties
 SHA1-Digest: ormMvdM+Utz/UbE6OO//Yiia5kE=
 
 Name: edtftpj-pro.jar
-SHA1-Digest: aK2m6wkFJEgP83F/zHv4ta47jBY=
+SHA1-Digest: oEd9MNSD5GhRJCw1uNYMIpstUc0=
 

@@ -1,13 +1,6 @@
 Manifest-Version: 1.0
-Ant-Version: Apache Ant 1.7.1
-Created-By: 1.5.0_12-b04 (Sun Microsystems Inc.)
-Bundle-Name: Jersey
-Bundle-ClassPath: jersey-multipart-1.5.jar,jersey-apache-client-1.5.ja
- r,jersey-json-1.5.jar,jersey-core-1.5.jar,jersey-client-1.5.jar
-Bundle-RequiredExecutionEnvironment: J2SE-1.5
-Bundle-Vendor: Sun
-Bundle-ManifestVersion: 2
-Bundle-SymbolicName: com.sun.jersey
+Ant-Version: Apache Ant 1.8.2
+Created-By: 1.6.0_34-b04 (Sun Microsystems Inc.)
 Require-Bundle: org.apache.commons.httpclient;bundle-version="3.1.0",o
  rg.codehaus.jettison;bundle-version="1.0.0"
 Export-Package: com.sun.jersey.api.client,com.sun.jersey.api.client.as
@@ -30,5 +23,12 @@ Export-Package: com.sun.jersey.api.client,com.sun.jersey.api.client.as
  un.jersey.multipart.impl,com.sun.jersey.spi,com.sun.jersey.spi.inject
  ,com.sun.jersey.spi.service,com.sun.ws.rs.ext,javax.ws.rs,javax.ws.rs
  .core,javax.ws.rs.ext
+Bundle-Vendor: Sun
+Bundle-ClassPath: jersey-multipart-1.5.jar,jersey-apache-client-1.5.ja
+ r,jersey-json-1.5.jar,jersey-core-1.5.jar,jersey-client-1.5.jar
 Bundle-Version: 1.5.0
+Bundle-Name: Jersey
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.sun.jersey
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
 

@@ -1,4 +1,4 @@
-2014-03-12 04:50:55.875 GMT Thread[main,6,main] Cleanup action starting
+2014-04-28 01:41:43.834 GMT Thread[main,6,main] Cleanup action starting
 java.sql.SQLException: Database 'aptanaDB' not found.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)

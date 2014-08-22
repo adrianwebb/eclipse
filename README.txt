@@ -1,5 +1,6 @@
 
-This is the personal Eclipse IDE bundle of Adrian Webb (http://github.com/adrianwebb).
+This is the personal Eclipse IDE bundle of Adrian Webb 
+-> http://github.com/adrianwebb
 
 Feel free to use it, change it, and distribute your own version.
 

@@ -1,4 +1,8 @@
 
+WARNING:  This version has serious issues and should not be used until they are resolved.
+Try the aptana3 branch for the latest stable and used.  This branch will be revisited in the future.
+
+
 This is the personal Eclipse 4.4 IDE bundle of Adrian Webb (http://github.com/adrianwebb).
 
 Feel free to use it, change it, and distribute your own version.
@@ -11,6 +15,7 @@ It is built on:
 4. ShellEd (Bash)
 5. StartExplorer (contextual path operations)
 6. Atlassian Connector (JIRA integration)
+
 
 
 Below are custom settings I use, documented for when I forget (two minutes from now):

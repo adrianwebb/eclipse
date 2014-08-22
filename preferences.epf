@@ -587,7 +587,6 @@ file_export_version=3.0
 /instance/com.aptana.rcp/WORKSPACE_ENCODING_SET=true
 /instance/com.aptana.editor.css.formatter/css.formatter.spaces.before.semicolon=0
 /instance/org.eclipse.jdt.ui/java_type_underline=false
-/configuration/org.eclipse.ui.ide/RECENT_WORKSPACES=/root/.aptana3
 /instance/com.aptana.editor.js.formatter/js.formatter.spaces.after.for.semicolon.operator=1
 /instance/org.eclipse.ui.editors/rubyBlockPairOccurrenceIndication=true
 /instance/com.aptana.editor.css.formatter/css.formatter.spaces.after.parentheses=1

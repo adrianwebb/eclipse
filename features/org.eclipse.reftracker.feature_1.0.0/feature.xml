@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.reftracker.feature"
+      label="org.eclipse.reftracker.feature"
+      version="1.0.0"
+      provider-name="Eclipse.org">
+
+   <description>
+      %description
+   </description>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="JDT UI update site" url="http://www.eclipse.org/jdt/ui/update-site"/>
+      <discovery label="JDT UI Site" url="http://www.eclipse.org/jdt/ui/update-site"/>
+   </url>
+
+   <requires>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.reftracker"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+</feature>

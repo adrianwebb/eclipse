@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Export-Package: org.python.pydev.core,org.python.pydev.core.cache,org.
+ python.pydev.core.concurrency,org.python.pydev.core.docutils,org.pyth
+ on.pydev.core.log,org.python.pydev.core.parser,org.python.pydev.core.
+ performanceeval,org.python.pydev.core.resource_stubs,org.python.pydev
+ .core.structure
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: core.jar
+Eclipse-BundleShape: dir
+Bundle-Name: Core Plug-in
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.junit;bundle-version="4.0.0";resolution:=optional,
+ org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.jface.text,org.ec
+ lipse.core.resources,org.eclipse.ui.workbench.texteditor,org.eclipse.
+ core.filebuffers,org.eclipse.ui.console,org.eclipse.core.variables,or
+ g.python.pydev.shared_core;visibility:=reexport,org.python.pydev.shar
+ ed_ui
+Bundle-Vendor: Aptana
+Bundle-Version: 3.0.0.1388187472
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.python.pydev.core.CorePlugin
+Bundle-SymbolicName: org.python.pydev.core; singleton:=true
+
+Name: LICENSE.txt
+SHA1-Digest: p+9tB+uCL9D+iYG9D8zDHITgqgU=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 6mDW8kS/T9pK7w1by/wcxy21Z20=
+
+Name: core.jar
+SHA1-Digest: GYymXQYOuGut+KVIDLwB0BUAx6k=
+
+Name: icons/python_logging.png
+SHA1-Digest: B53S93ZEmIb0NP4+Urv+EiZbl/M=
+

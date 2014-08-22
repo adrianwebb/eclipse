@@ -122,7 +122,7 @@ children:
   displayName: Cucumber
   path: bundle.rb
   scope: null
-- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-09f3bb82-d9af-4c9a-890d-cb28fdb13ec6,
+- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-8c37f90a-bb98-4f2f-906c-8c5f1691e41c,
   path: bundle.rb, scope: text.cucumber.feature}
 - !!com.aptana.scripting.model.CommandElement
   async: false

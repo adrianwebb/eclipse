@@ -1288,11 +1288,11 @@ children:
   scope: source.ruby, project.rails
 - !!com.aptana.scripting.model.SmartTypingPairsElement
   customProperties: null
-  displayName: smart_typing_pairs-d7726f33-171a-45f4-9986-5e0c401282a3
+  displayName: smart_typing_pairs-81e55ba0-d9b9-4cde-8bcf-b350f78548a6
   pairs: ['"', '"', '|', '|', (, ), '{', '}', '[', ']', '''', '''', '`', '`']
   path: bundle.rb
   scope: source.ruby
-- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-3f8fd662-adc5-4171-829c-e60a3abcb837,
+- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-431cad96-08ad-4c25-9539-ff1aa854483f,
   path: bundle.rb, scope: source.ruby}
 - !!com.aptana.scripting.model.CommandElement
   async: false
@@ -1510,8 +1510,8 @@ children:
   input: [none]
   inputPath: null
   keyBindingMap:
-    !!com.aptana.scripting.model.Platform 'ALL': [ALT+L]
     !!com.aptana.scripting.model.Platform 'MAC': [CONTROL+L]
+    !!com.aptana.scripting.model.Platform 'ALL': [ALT+L]
   outputPath: null
   outputType: insert_as_text
   path: commands/hash_pointer.rb

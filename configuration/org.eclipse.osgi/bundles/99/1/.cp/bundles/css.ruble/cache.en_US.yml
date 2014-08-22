@@ -50,11 +50,11 @@ children:
   displayName: CSS
   path: bundle.rb
   scope: source.css
-- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-db1134b9-2af1-4d9e-90fe-09087bb35142,
+- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-043d1f16-8a53-4514-bf64-b4cddde09626,
   path: bundle.rb, scope: source.css}
 - !!com.aptana.scripting.model.SmartTypingPairsElement
   customProperties: null
-  displayName: smart_typing_pairs-a158e5c4-b968-418c-a115-a1006656f925
+  displayName: smart_typing_pairs-17503ab6-010d-466c-ba55-900f01437b27
   pairs: ['"', '"', (, ), '{', '}', '[', ']', '''', '''', '`', '`']
   path: bundle.rb
   scope: source.css

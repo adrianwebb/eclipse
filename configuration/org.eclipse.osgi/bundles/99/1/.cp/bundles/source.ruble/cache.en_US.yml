@@ -206,17 +206,17 @@ children:
   displayName: Source
   path: bundle.rb
   scope: null
-- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-32bb8d2f-a021-4991-9731-1d796bfccd8b,
+- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-63512e1b-5d2a-4768-8a78-25a0eb24d55e,
   path: bundle.rb, scope: source}
 - !!com.aptana.scripting.model.SmartTypingPairsElement
   customProperties: null
-  displayName: smart_typing_pairs-927af9f6-4526-4e1b-a07d-e9e780dfff66
+  displayName: smart_typing_pairs-a6a5aeb4-2250-4595-9044-594a386eb3e4
   pairs: ['"', '"', (, ), '{', '}', '[', ']', '''', '''', '`', '`']
   path: bundle.rb
   scope: source
 - !!com.aptana.scripting.model.SmartTypingPairsElement
   customProperties: null
-  displayName: smart_typing_pairs-e7eee9ca-4562-46b5-a185-b2b271fa98eb
+  displayName: smart_typing_pairs-86f9d71a-7a48-4b9d-ae1b-57531ac74a83
   pairs: ['"', '"', (, ), '{', '}', '[', ']']
   path: bundle.rb
   scope: string.quoted.double, comment
@@ -381,8 +381,8 @@ children:
   input: [selection, none]
   inputPath: null
   keyBindingMap:
-    !!com.aptana.scripting.model.Platform 'ALL': [M1+M2+/]
     !!com.aptana.scripting.model.Platform 'MAC': [M1+M3+/]
+    !!com.aptana.scripting.model.Platform 'ALL': [M1+M2+/]
   outputPath: null
   outputType: insert_as_snippet
   path: commands/insert_block_comment.rb

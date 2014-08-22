@@ -1,3 +1,6 @@
+# Ignore log files.
+configuration/*.log
+
 # Ignore Eclipse project files
 .project
 .settings

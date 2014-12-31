@@ -3,27 +3,32 @@
 <repository name='download cache' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
   <properties size='2'>
     <property name='p2.system' value='true'/>
-    <property name='p2.timestamp' value='1408683165763'/>
+    <property name='p2.timestamp' value='1419983629859'/>
   </properties>
   <mappings size='3'>
     <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
     <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
     <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
   </mappings>
-  <artifacts size='8'>
+  <artifacts size='9'>
     <artifact classifier='binary' id='com.aptana.rcp.product_root.gtk.linux.x86_64' version='3.6.0.201407100658-10072014065919'>
       <properties size='1'>
         <property name='download.size' value='266973'/>
       </properties>
     </artifact>
-    <artifact classifier='binary' id='org.eclipse.platform_root' version='4.3.2.v20140221-1852'>
+    <artifact classifier='binary' id='org.eclipse.cdt_root' version='8.3.0.201402142303'>
       <properties size='1'>
-        <property name='download.size' value='9030'/>
+        <property name='download.size' value='8076'/>
       </properties>
     </artifact>
     <artifact classifier='binary' id='com.aptana.feature.rcp_root' version='3.6.0.201407100658-7q7fFA2FEB7f0Vyqz0_dz0G-Gg8E'>
       <properties size='1'>
         <property name='download.size' value='1586'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.platform_root' version='4.3.2.v20140221-1852'>
+      <properties size='1'>
+        <property name='download.size' value='9030'/>
       </properties>
     </artifact>
     <artifact classifier='binary' id='org.eclipse.jdt_root' version='3.9.1.v20130911-1000'>

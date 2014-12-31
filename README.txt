@@ -1,5 +1,5 @@
 
-This is the personal Eclipse IDE bundle of Adrian Webb 
+This is the personal Eclipse IDE bundle of Adrian Webb
 -> http://github.com/adrianwebb
 
 Feel free to use it, change it, and distribute your own version.
@@ -8,13 +8,16 @@ It is built on:
 
 1. Aptana Studio 3 (Ruby, Python, PHP)
 
-2. Gepetto (Puppet)                        
+2. Gepetto (Puppet)
 -> http://geppetto-updates.puppetlabs.com/4.x
 
-3. ShellEd (Bash)                          
+3. ShellEd (Bash)
 -> http://sourceforge.net/projects/shelled/files/shelled/update
 
-4. Open in Terminal (contextual console)   
+4. CDT (C/C++)
+-> http://download.eclipse.org/releases/kepler
+
+5. Open in Terminal (contextual console)
 -> http://eclipse-openinterminal.googlecode.com/svn/trunk/site
 
 

@@ -1,5 +1,11 @@
-# Ignore log files.
+# Ignore log files
 configuration/*.log
+
+# Ignore state files
+configuration/.aptana
+
+# Ignore temp files
+**/.tmp*
 
 # Ignore Eclipse project files
 .project

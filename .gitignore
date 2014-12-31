@@ -3,6 +3,8 @@ configuration/*.log
 
 # Ignore state files
 configuration/.aptana
+configuration/org.eclipse.core.runtime/.*
+configuration/org.eclipse.osgi/.*
 
 # Ignore temp files
 **/.tmp*

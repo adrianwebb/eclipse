@@ -122,7 +122,7 @@ children:
   displayName: Shell Script
   path: bundle.rb
   scope: null
-- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-e85d9512-858c-4ab0-a937-e3a034ea2aa8,
+- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-313ec659-ed31-4042-81ef-978944eb8c3c,
   path: bundle.rb, scope: source.shell}
 - !!com.aptana.scripting.model.CommandElement
   async: false

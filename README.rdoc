@@ -6,7 +6,7 @@ Feel free to use it, change it, and distribute your own version.
 
 It is built on:
 
-  1. Aptana Studio 3 (Ruby, Python, PHP, Javascript, HTML, XML, CSS, SASS, JSON, YAML, ERB, HAML)
+  1. Aptana Studio 3 (Ruby, Python, PHP, Javascript, HTML, XML, CSS, SASS, JSON, YAML, ERB)
 
   2. Gepetto (Puppet)
      -> http://geppetto-updates.puppetlabs.com/4.x

@@ -22,7 +22,9 @@ It is built on:
 
 
 My default preferences are stored in the *preferences.epf*
-and can be imported through *File* -> *Import* -> *General* -> *Preferences*
+and can be imported through:
+
+*File* -> *Import* -> *General* -> *Preferences*
 
 
 Example Eclipse executable (assuming this project resides at */usr/local/lib/aptana3*)

@@ -15,9 +15,10 @@ It is built on:
      -> http://sourceforge.net/projects/shelled/files/shelled/update
 
   4. CDT (C/C++)
+  5. Java Development Tools (Java)
      -> http://download.eclipse.org/releases/kepler
 
-  5. Open in Terminal (contextual console)
+  6. Open in Terminal (contextual console)
      -> http://eclipse-openinterminal.googlecode.com/svn/trunk/site
 
 

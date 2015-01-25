@@ -27,9 +27,3 @@ and can be imported through:
 
 *File* -> *Import* -> *General* -> *Preferences*
 
-
-Example Eclipse executable (assuming this project resides at */usr/local/lib/aptana3*)
-
-  /usr/local/bin/aptana
-  #!/bin/bash
-  `/usr/local/lib/aptana3/AptanaStudio3 -vmargs -Xms512M -Xmx1024M -XX:PermSize=1024M -XX:MaxPermSize=2048M &> /dev/null` &

@@ -6,6 +6,9 @@ configuration/.aptana
 configuration/org.eclipse.core.runtime/.*
 configuration/org.eclipse.osgi/.*
 
+# Ignore cache files
+**/cache/
+
 # Ignore temp files
 **/.tmp*
 

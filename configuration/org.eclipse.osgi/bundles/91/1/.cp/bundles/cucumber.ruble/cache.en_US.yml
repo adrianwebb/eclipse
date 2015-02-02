@@ -122,8 +122,194 @@ children:
   displayName: Cucumber
   path: bundle.rb
   scope: null
-- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-8c37f90a-bb98-4f2f-906c-8c5f1691e41c,
+- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-c5428bd5-36f8-48ea-9a07-39e518c93cf3,
   path: bundle.rb, scope: text.cucumber.feature}
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [sc]
+  description: null
+  displayName: Scenario (heading only)
+  expansion: 'Scenario: ${1:title}
+
+    $0
+
+    '
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/feature_snippets.rb
+  runType: current_thread
+  scope: text.cucumber.feature
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [sco]
+  description: null
+  displayName: Scenario Outline
+  expansion: "Scenario Outline: ${1:title}\n  Given ${2:context}\n  When ${3:event}\n\
+    \  Then ${4:outcome}\n"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/feature_snippets.rb
+  runType: current_thread
+  scope: text.cucumber.feature
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [sce]
+  description: null
+  displayName: Scenario
+  expansion: "Scenario: ${1:title}\n  Given ${2:context}\n  When ${3:event}\n  Then\
+    \ ${4:outcome}\n$0\n"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/feature_snippets.rb
+  runType: current_thread
+  scope: text.cucumber.feature
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties:
+    prefix_values: [fea]
+  displayName: Feature
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/feature_snippets.rb
+  runType: current_thread
+  scope: text.cucumber.feature
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [the]
+  description: null
+  displayName: Then Step Plaintext
+  expansion: Then ${1:outcome}
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/feature_snippets.rb
+  runType: current_thread
+  scope: text.cucumber.feature
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [whe]
+  description: null
+  displayName: When Step Plaintext
+  expansion: When ${1:event}
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/feature_snippets.rb
+  runType: current_thread
+  scope: text.cucumber.feature
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties:
+    prefix_values: [steps]
+  displayName: Cucumber Multiline Steps
+  input: [clipboard]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/step_snippets.rb
+  runType: current_thread
+  scope: source.ruby.rspec.cucumber.steps
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [giv]
+  description: null
+  displayName: Given Step
+  expansion: "Given ${1:step_name} do\n  $0\nend\n\n"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/step_snippets.rb
+  runType: current_thread
+  scope: source.ruby.rspec.cucumber.steps
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [the]
+  description: null
+  displayName: Then Step
+  expansion: "Then ${1:step name} do\n  $0\nend\n\n"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/step_snippets.rb
+  runType: current_thread
+  scope: source.ruby.rspec.cucumber.steps
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [whe]
+  description: null
+  displayName: When Step
+  expansion: "When ${1:step name} do\n  $0\nend\n\n"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/step_snippets.rb
+  runType: current_thread
+  scope: source.ruby.rspec.cucumber.steps
+  tags: *id001
+  workingDirectoryType: UNDEFINED
 - !!com.aptana.scripting.model.CommandElement
   async: false
   customProperties: null

@@ -50,7 +50,7 @@ children:
   displayName: YAML
   path: bundle.rb
   scope: null
-- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-8cac2ed2-2c1b-40db-ab7d-7933bdc2929a,
+- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-70d160a7-7c5c-4591-a507-e3999398e1ab,
   path: bundle.rb, scope: source.yaml}
 - !!com.aptana.scripting.model.CommandElement
   async: false

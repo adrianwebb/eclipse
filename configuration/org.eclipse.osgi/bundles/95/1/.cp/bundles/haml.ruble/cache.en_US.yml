@@ -194,7 +194,7 @@ children:
   displayName: HAML
   path: bundle.rb
   scope: null
-- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-f65a06b1-1acb-401a-9fb2-0508665372c1,
+- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-9becbf39-ecd4-4cbb-9c52-a1df5f478518,
   path: bundle.rb, scope: text.haml}
 - !!com.aptana.scripting.model.CommandElement
   async: false

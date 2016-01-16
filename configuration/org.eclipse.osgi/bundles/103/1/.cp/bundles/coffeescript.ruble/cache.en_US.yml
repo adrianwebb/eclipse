@@ -188,11 +188,11 @@ children:
   displayName: CoffeeScript
   path: bundle.rb
   scope: null
-- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-20981176-8b5a-4991-bcaf-3bc14c0e8a3f,
+- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-04ff0a65-57f3-4676-ac07-ab31c0defb9b,
   path: bundle.rb, scope: source.coffee}
 - !!com.aptana.scripting.model.SmartTypingPairsElement
   customProperties: null
-  displayName: smart_typing_pairs-07157c92-787c-428f-9337-3cba76c997da
+  displayName: smart_typing_pairs-41583318-32ea-409d-8007-3ea22150381c
   pairs: ['"', '"', (, ), '{', '}', '[', ']', '''', '''', '`', '`']
   path: bundle.rb
   scope: source.coffee

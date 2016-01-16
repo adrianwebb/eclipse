@@ -1892,25 +1892,25 @@ children:
   displayName: Rails
   path: bundle.rb
   scope: source.ruby, project.rails, source.yaml, text.haml, text.html.ruby
-- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-61680399-f6a1-4dd7-ab56-512001511670,
+- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-ff367744-e3ae-4376-a371-50b8bbdd8b1c,
   path: bundle.rb, scope: text.html.ruby}
-- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-7af422b3-af16-4f09-9882-24a1c4927282,
+- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-dfa5ad80-1e25-4907-a9a0-1eb1534cb609,
   path: bundle.rb, scope: text.haml}
 - !!com.aptana.scripting.model.SmartTypingPairsElement
   customProperties: null
-  displayName: smart_typing_pairs-79dbc13a-6e36-4191-a0c1-25c91026b660
+  displayName: smart_typing_pairs-1ad6179a-de62-47eb-8687-79528198e97d
   pairs: ['%', '%', '"', '"', (, ), '{', '}', '[', ']', <, '>']
   path: bundle.rb
   scope: text.html.ruby
 - !!com.aptana.scripting.model.SmartTypingPairsElement
   customProperties: null
-  displayName: smart_typing_pairs-f2febeab-b426-486b-9885-42452d2df88a
+  displayName: smart_typing_pairs-738448ff-a302-400b-a418-44277150c84e
   pairs: ['%', '%', '"', '"', (, ), '{', '}', '[', ']', <, '>', '''', '''']
   path: bundle.rb
   scope: text.html.ruby meta.tag
 - !!com.aptana.scripting.model.SmartTypingPairsElement
   customProperties: null
-  displayName: smart_typing_pairs-0562a99b-84d5-4eee-bb36-c1ab5a390631
+  displayName: smart_typing_pairs-7836d1bd-c248-4df9-bc39-d345e4691921
   pairs: ['"', '"', (, ), '{', '}', '[', ']', '%', '%', <, '>']
   path: bundle.rb
   scope: text.html.ruby meta.tag string

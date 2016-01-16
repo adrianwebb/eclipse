@@ -5,6 +5,7 @@ configuration/*.log
 configuration/.aptana
 configuration/org.eclipse.core.runtime/.*
 configuration/org.eclipse.osgi/.*
+configuration/org.eclipse.update/history/*
 
 # Ignore cache files
 **/cache/

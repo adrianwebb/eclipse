@@ -96,6 +96,13 @@ repositories/http\:__download.eclipse.org_eclipse_updates_4.4_R-4.4.1-2014092504
 repositories/http\:__download.eclipse.org_eclipse_updates_4.4_R-4.4.1-201409250400/type=org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository
 repositories/http\:__download.eclipse.org_eclipse_updates_4.4_R-4.4.1-201409250400/uri=http\://download.eclipse.org/eclipse/updates/4.4/R-4.4.1-201409250400
 repositories/http\:__download.eclipse.org_eclipse_updates_4.4_R-4.4.1-201409250400/version=1.0.0
+repositories/http\:__download.eclipse.org_eclipse_updates_4.4_R-4.4.2-201502041700/enabled=false
+repositories/http\:__download.eclipse.org_eclipse_updates_4.4_R-4.4.2-201502041700/isSystem=true
+repositories/http\:__download.eclipse.org_eclipse_updates_4.4_R-4.4.2-201502041700/name=Eclipse Project Repository for Luna
+repositories/http\:__download.eclipse.org_eclipse_updates_4.4_R-4.4.2-201502041700/suffix=content.xml
+repositories/http\:__download.eclipse.org_eclipse_updates_4.4_R-4.4.2-201502041700/type=org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository
+repositories/http\:__download.eclipse.org_eclipse_updates_4.4_R-4.4.2-201502041700/uri=http\://download.eclipse.org/eclipse/updates/4.4/R-4.4.2-201502041700
+repositories/http\:__download.eclipse.org_eclipse_updates_4.4_R-4.4.2-201502041700/version=1.0.0
 repositories/http\:__download.eclipse.org_eclipse_updates_4.4_bug445122/enabled=false
 repositories/http\:__download.eclipse.org_eclipse_updates_4.4_bug445122/isSystem=true
 repositories/http\:__download.eclipse.org_eclipse_updates_4.4_bug445122/name=IES Patch Site

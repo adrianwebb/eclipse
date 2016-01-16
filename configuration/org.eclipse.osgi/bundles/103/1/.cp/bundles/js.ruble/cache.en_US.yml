@@ -164,11 +164,11 @@ children:
   displayName: JavaScript
   path: bundle.rb
   scope: source.js
-- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-1e098064-4bf4-49cd-b822-63f52b2125fd,
+- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-1bf0bfb8-69ff-4f13-ba3f-32e2e34f9ad3,
   path: bundle.rb, scope: source.js}
 - !!com.aptana.scripting.model.SmartTypingPairsElement
   customProperties: null
-  displayName: smart_typing_pairs-6df16d89-ccd4-47a5-a143-b6ec1199f71d
+  displayName: smart_typing_pairs-aa18f7d3-be2a-4295-893c-f11dc99b9587
   pairs: ['"', '"', (, ), '{', '}', '[', ']', '''', '''']
   path: bundle.rb
   scope: source.js

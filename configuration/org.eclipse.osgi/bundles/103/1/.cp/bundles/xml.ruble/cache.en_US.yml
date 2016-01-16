@@ -50,17 +50,17 @@ children:
   displayName: XML
   path: bundle.rb
   scope: null
-- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-d3c19cf7-c33e-427e-a4f9-ae5cf19bbf82,
+- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-12477f6c-f6ee-4940-aff9-fecda9ee103a,
   path: bundle.rb, scope: text.xml}
 - !!com.aptana.scripting.model.SmartTypingPairsElement
   customProperties: null
-  displayName: smart_typing_pairs-68d3aab0-c988-4355-afbb-d765d91e54d5
+  displayName: smart_typing_pairs-d618f66f-1ce1-4ac6-9f01-2a6154fd49bb
   pairs: [<, '>']
   path: bundle.rb
   scope: text.xml
 - !!com.aptana.scripting.model.SmartTypingPairsElement
   customProperties: null
-  displayName: smart_typing_pairs-fe427a0c-22b4-44d5-b4c2-82d9565ee2db
+  displayName: smart_typing_pairs-eef7f434-5542-470e-97b7-4b546a19e97c
   pairs: ['"', '"', '''', '''']
   path: bundle.rb
   scope: text.xml meta.tag - punctuation.definition.tag.begin
